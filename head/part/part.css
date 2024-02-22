@@ -1,0 +1,50 @@
+.part2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.box1 {
+  grid-row: span 2;
+  position: relative;
+}
+.girl {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
+.box1 {
+  grid-row: span 2;
+  position: relative;
+}
+.men {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
+.box2 {
+  position: relative;
+}
+.kid {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
+.box3 {
+  position: relative;
+}
+.cos {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
+.box4 {
+  position: relative;
+}
+.acc {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
+.box5 {
+  position: relative;
+}

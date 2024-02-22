@@ -1,0 +1,49 @@
+.sec {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  
+}
+.girl {
+  grid-row: span 2;
+  background-image: url(../girlbox/category-1.jpg.webp);
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.men {
+  background-image: url(../girlbox/category-2.jpg.webp);
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.kid {
+  background-image: url(../girlbox/category-3.jpg.webp);
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cos {
+  background-image: url(../girlbox/category-4.jpg.webp);
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.access {
+  background-image: url(../girlbox/category-5.jpg.webp);
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.para1 {
+  color: grey;
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.shop {
+  text-decoration: underline red;
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
