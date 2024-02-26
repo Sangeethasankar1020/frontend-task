@@ -1,0 +1,293 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+}
+.navi3 {
+  display: inline-block;
+  padding: 30px;
+}
+.container-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+}
+.box-1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  position: relative;
+}
+.girl {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+}
+.box-2 {
+  position: relative;
+}
+.men {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.box-3 {
+  position: relative;
+}
+.kid {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.box-4 {
+  position: relative;
+}
+.cos {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.box-5 {
+  position: relative;
+}
+.access {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.item {
+  color: grey;
+}
+.shop {
+  font-size: small;
+  text-decoration: underline red;
+  font-family: sans-serif;
+}
+.category {
+  font-family: cookie, cursive;
+  font-size: 20px;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+.navigation-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-2 {
+  max-width: 1200px;
+  margin: auto;
+}
+.sale-post {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+}
+.product {
+  align-items: center;
+}
+.price{
+  color: gray;
+  text-decoration: line-through;
+}
+.fa-star {
+  color: gold;
+}
+.content-3 {
+  position: relative;
+}
+.content {
+  margin: auto;
+  width: 100%;
+}
+.contentt-3 {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  justify-content: center;
+  align-content: center;
+}
+.banner-1 {
+  color: red;
+}
+
+.banner-2 {
+  font-size: 45px;
+  font-family: cookie, cursive;
+}
+.trend-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.trend-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.trend-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seller-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seller-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seller-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.feature-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.feature-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.feature-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.service-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+}
+.service-sec{
+  color: grey;
+}
+.discount {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  
+}
+.discount-box {
+  background: lightgray;
+  height: 390px;
+  width: 595px;
+  border: 1px ;
+}
+.discount-circle {
+  background: white;
+  height: 183px;
+  width: 183px;
+  border-radius: 50%;
+  margin-left: 210px;
+  margin-top: 50px;
+  }
+  .dis-text{
+    font-size: 25px;
+    font-family: cookie,cursive;
+    color: red;
+  }
+.fa-money {
+  color: red;
+}
+.fa-car {
+  color: red;
+}
+.fa-support {
+  color: red;
+}
+.fa-headphones {
+  color: red;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+}
+.btn-1 {
+  position: relative;
+  padding: 10px;
+  border-radius: 40px;
+  border-color: grey;
+}
+.btn-2 {
+  position: absolute;
+  right:160px;
+  border-color: grey;
+  color: white;
+  background: rgb(153, 6, 6);
+  padding: 10px;
+  border-radius: 40px;
+}
+.foot-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.facebook {
+  height: 30px;
+  width: 30px;
+  background-color: lightgray;
+  border-radius: 80px;
+  background-position: center;
+}
+.link{
+row-gap: 20px;
+}
