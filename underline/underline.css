@@ -1,0 +1,11 @@
+.navigat{
+    position: relative;
+}
+.navii-1{
+    position: absolute;
+    content: ""::after;
+    left: 0;
+    bottom: 0;
+    border: 3px solid red;
+    width: 50%;
+}

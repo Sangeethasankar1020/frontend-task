@@ -47,6 +47,7 @@ ul li {
   display: flex;
   gap: 10px;
 }
+
 .container-1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -61,7 +62,7 @@ ul li {
 }
 .girl {
   position: absolute;
-  top: 66px;
+  top: 140px;
   left: 61px;
 }
 .box-2 {
@@ -71,6 +72,9 @@ ul li {
   position: absolute;
   top: 50px;
   left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 .box-3 {
   position: relative;
@@ -79,6 +83,9 @@ ul li {
   position: absolute;
   top: 50px;
   left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 .box-4 {
   position: relative;
@@ -87,6 +94,9 @@ ul li {
   position: absolute;
   top: 50px;
   left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 .box-5 {
   position: relative;
@@ -95,12 +105,16 @@ ul li {
   position: absolute;
   top: 50px;
   left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 .item {
   color: grey;
 }
 .shop {
-  font-size:14px ;
+  font-size:13px ;
+  font-weight: 600;
   text-decoration: underline red;
   text-decoration-thickness: 2px;
   border-width: 4px;
@@ -115,6 +129,7 @@ ul li {
 .category {
   font-family: montserrat,sans-serif;
   font-size: 24px;
+  font-weight: 800;
 }
 ul li {
   list-style-type: none;
@@ -162,16 +177,14 @@ ul li {
   display: flex;
   flex-direction: row;
   font-size: 10px;
+  color: goldenrod;
 }
 .price {
   color: gray;
   text-decoration: line-through;
   font-size: 16px;
 }
-.fa-star {
-  color: gold;
-  font-size: 10px;
-}
+
 .content-3 {
   position: relative;
 }
@@ -189,7 +202,7 @@ ul li {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 .banner-1 {
   color: red;
@@ -325,6 +338,15 @@ ul li {
   text-decoration-thickness: 2px;
   border-width: 4px;
   text-underline-offset: 5px;
+  font-family: montserrat,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.suggestion-text{
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
 }
 .timer {
   display: flex;
@@ -335,8 +357,7 @@ ul li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
+  gap: 5px;
   margin-left: 53px;
 }
 .countdown {
@@ -349,10 +370,12 @@ ul li {
 .time-num {
   font-size: 30px;
   font-weight: 600;
+  font-family: montserrat,sans-serif;
 }
 .time-time {
   font-size: 14px;
   font-weight: 500;
+  font-family: montserrat,sans-serif;
 }
 .service-1 {
   display: flex;
@@ -377,7 +400,7 @@ ul li {
 .service {
   display: flex;
   flex-direction: row;
- column-gap: 129px;
+ column-gap: 109px;
   max-width: 1200px;
   margin: auto;
   padding: 50px;
@@ -386,9 +409,13 @@ ul li {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-family: montserrat,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 .service-sec {
   color: grey;
+  font-size: 14px;
 }
 .discount {
   max-width: 1200px;
@@ -406,6 +433,7 @@ ul li {
   height: 390px;
   width: 595px;
   border: 1px;
+  position: relative;
 }
 .discount-circle {
   background: white;
@@ -415,19 +443,26 @@ ul li {
   margin-left: 210px;
   margin-top: 50px;
   text-align: center;
-  position: relative;
+  
 }
 .discount-text {
   text-align: center;
   margin-top: 40px;
   position: absolute;
-  top: 10px;
-  left: 5px;
+  display: flex;
+  flex-direction: column;
+  left: 178px;
 }
 .dis-text {
-  font-size: 26px;
+  font-size: 60px;
+  font-weight: 500;
   font-family: cookie, cursive;
   color: red;
+}
+.dis{
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight:400;
 }
 .dis-shop {
   margin-left: 266px;
@@ -435,6 +470,9 @@ ul li {
   text-decoration-thickness: 2px;
   border-width: 4px;
   text-underline-offset: 5px;
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight:700;
 }
 .fa-money {
   color: red;
@@ -451,43 +489,57 @@ ul li {
 .footer {
   display: flex;
   flex-direction: row;
-  gap: 150px;
+  gap: 135px;
   padding-top: 50px;
   max-width: 1200px;
   margin: auto;
 }
 .btn-1 {
-  padding: 10px;
+  padding: 17px;
   border-radius: 40px;
-  border-color: rgb(250, 245, 246);
-  width: 250px;
+  width: 276px;
+  border-color: lightgray;
 }
 .footer-div {
   position: relative;
 }
 .btn-2 {
   position: absolute;
-  right: 0px;
+  right: 8px;
   top: 0px;
   color: white;
   background: rgb(153, 6, 6);
-  padding: 10px;
+  padding: 12px;
   border-radius: 40px;
   border-color: lightgray;
+  margin-top: 4px;
+  margin-bottom: 3px;
 }
 .foot-logo {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-family: montserrat,sans-serif;
+  font-size: 13px;
+  font-weight:400;
 }
 .foot-payment {
   display: flex;
-  column-gap: 5px;
+  column-gap: 10px;
 }
 .link {
   display: flex;
   flex-direction: column;
   row-gap: 14px;
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight:400;
+}
+.link-text{
+  font-family: montserrat,sans-serif;
+  font-size: 15px;
+  font-weight:900;
+  color: black;
 }
 .facebook {
   height: 30px;
