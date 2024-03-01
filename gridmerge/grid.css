@@ -1,0 +1,15 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background-color: black;
+}
+.box1 {
+  grid-row: span 2;
+}
+.box2 {
+  grid-column: span 2;
+}
+.box9 {
+  grid-column: span 2;
+}

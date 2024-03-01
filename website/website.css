@@ -1,0 +1,607 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  font-family: montserrat ,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav1 {
+  margin-left: 40px;
+}
+.nav2 {
+  font-size: "Montserrat", "sans-serif";
+}
+.login{
+  color: gray;
+}
+/* .fa-heart-o{
+  position: relative;
+}
+.heart-sup{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+  background: black;
+  color: white;
+  text-align: center;
+} */
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+}
+.home {
+  text-decoration: underline red;
+  text-decoration-thickness: 2px;
+  border-width: 4px;
+  text-underline-offset: 5px;
+}
+.nav3 {
+  display: flex;
+  gap: 10px;
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+}
+.box-1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  position: relative;
+}
+.girl {
+  position: absolute;
+  top: 140px;
+  left: 61px;
+}
+.box-2 {
+  position: relative;
+}
+.men {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.box-3 {
+  position: relative;
+}
+.kid {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.box-4 {
+  position: relative;
+}
+.cos {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.box-5 {
+  position: relative;
+}
+.access {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.item {
+  color: grey;
+}
+.shop {
+  font-size:13px ;
+  font-weight: 600;
+  text-decoration: underline red;
+  text-decoration-thickness: 2px;
+  border-width: 4px;
+  text-underline-offset: 5px;
+  font-family: montserrat,sans-serif;
+}
+.women-category{
+  font-family: cookie, cursive;
+  font-size: 70px;
+  font-weight: 400;
+}
+.category {
+  font-family: montserrat,sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+.navigation-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: montserrat ,sans-serif;
+}
+.navigat {
+  text-decoration: underline red;
+  text-decoration-thickness: 2px;
+  border-width: 4px;
+  text-underline-offset: 5px;
+}
+.container-2 {
+  max-width: 1200px;
+  margin: auto;
+}
+.sale-post {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: montserrat ,sans-serif;
+}
+.product-text{
+  color: grey;
+  font-size: 16px;
+  font-weight: 400;
+}
+.product-star {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  color: goldenrod;
+}
+.price {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 16px;
+}
+
+.content-3 {
+  position: relative;
+}
+.content {
+  margin: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contentt-3 {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner-1 {
+  color: red;
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.banner-2 {
+  font-size: 80px;
+  font-family: cookie, cursive;
+  font-weight: 500;
+}
+.trend-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.trend-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.trend-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seller-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seller-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.seller-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.feature-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.feature-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.feature-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.trend--1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.trend--2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.trend--3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.seller--1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.seller--2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.seller--3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.feature--1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.feature--2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.feature--3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.hot-trend {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.best-seller {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Feature {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.suggestion {
+  text-transform: uppercase;
+  font-weight: 600px;
+  text-decoration: underline red;
+  text-decoration-thickness: 2px;
+  border-width: 4px;
+  text-underline-offset: 5px;
+  font-family: montserrat,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.suggestion-text{
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 53px;
+}
+.countdown {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.time-num {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: montserrat,sans-serif;
+}
+.time-time {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: montserrat,sans-serif;
+}
+.service-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.service {
+  display: flex;
+  flex-direction: row;
+ column-gap: 109px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+.service-text{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: montserrat,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.service-sec {
+  color: grey;
+  font-size: 14px;
+}
+.discount {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+}
+.discount-box {
+  background: lightgray;
+  height: 390px;
+  width: 595px;
+  border: 1px;
+  position: relative;
+}
+.discount-circle {
+  background: white;
+  height: 183px;
+  width: 183px;
+  border-radius: 50%;
+  margin-left: 210px;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+.discount-text {
+  text-align: center;
+  margin-top: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 178px;
+}
+.dis-text {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: cookie, cursive;
+  color: red;
+}
+.dis{
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight:400;
+}
+.dis-shop {
+  margin-left: 266px;
+  text-decoration: underline red;
+  text-decoration-thickness: 2px;
+  border-width: 4px;
+  text-underline-offset: 5px;
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight:700;
+}
+.fa-money {
+  color: red;
+}
+.fa-car {
+  color: red;
+}
+.fa-support {
+  color: red;
+}
+.fa-headphones {
+  color: red;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+  padding-top: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+.btn-1 {
+  padding: 17px;
+  border-radius: 40px;
+  width: 276px;
+  border-color: lightgray;
+}
+.footer-div {
+  position: relative;
+}
+.btn-2 {
+  position: absolute;
+  right: 8px;
+  top: 0px;
+  color: white;
+  background: rgb(153, 6, 6);
+  padding: 12px;
+  border-radius: 40px;
+  border-color: lightgray;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+.foot-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: montserrat,sans-serif;
+  font-size: 13px;
+  font-weight:400;
+}
+.foot-payment {
+  display: flex;
+  column-gap: 10px;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight:400;
+}
+.link-text{
+  font-family: montserrat,sans-serif;
+  font-size: 15px;
+  font-weight:900;
+  color: black;
+}
+.facebook {
+  height: 30px;
+  width: 30px;
+  background-color: lightgray;
+  border-radius: 80px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter {
+  height: 30px;
+  width: 30px;
+  background-color: lightgray;
+  border-radius: 80px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.youtube {
+  height: 30px;
+  width: 30px;
+  background-color: lightgray;
+  border-radius: 80px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram {
+  height: 30px;
+  width: 30px;
+  background-color: lightgray;
+  border-radius: 80px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pin {
+  height: 30px;
+  width: 30px;
+  background-color: lightgray;
+  border-radius: 80px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-logo-2 {
+  display: flex;
+  gap: 10px;
+}
+/* .website {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+/* @media (max-width: 1000px) {
+  .container-1 {
+    font-size: small;
+  }
+} */

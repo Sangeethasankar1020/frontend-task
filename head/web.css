@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+.navi3 {
+  display: inline-block;
+  padding: 30px;
+  justify-content:space-between;
+}
+.nav1{
+
+}

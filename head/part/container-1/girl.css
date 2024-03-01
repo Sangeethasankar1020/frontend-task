@@ -1,0 +1,57 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.box1 {
+  grid-row: span 2;
+  grid-column: span 2;
+  position: relative;
+}
+
+.girl {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+}
+.box2 {
+  position: relative;
+}
+.men {
+  position: absolute;
+
+  top: 60px;
+  left: 20px;
+}
+.box3 {
+  position: relative;
+}
+.kid {
+  position: absolute;
+
+  top: 60px;
+  left: 20px;
+}
+.box4 {
+  position: relative;
+}
+.cos {
+  position: absolute;
+
+  top: 50px;
+  left: 50px;
+}
+.box5 {
+  position: relative;
+}
+.access {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.para1 {
+  color: grey;
+}
+.shop {
+  text-decoration: underline red;
+}
