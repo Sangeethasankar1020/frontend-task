@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   margin: auto;
-  font-family: montserrat ,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -15,23 +15,9 @@
 .nav2 {
   font-size: "Montserrat", "sans-serif";
 }
-.login{
+.login {
   color: gray;
 }
-/* .fa-heart-o{
-  position: relative;
-}
-.heart-sup{
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  right: 0;
-  top: 0;
-  background: black;
-  color: white;
-  text-align: center;
-} */
 ul li {
   list-style-type: none;
   display: inline-block;
@@ -54,6 +40,7 @@ ul li {
   gap: 20px;
   width: 100%;
   margin: auto;
+  flex-wrap: wrap;
 }
 .box-1 {
   grid-column: span 2;
@@ -74,7 +61,7 @@ ul li {
   left: 20px;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
 .box-3 {
   position: relative;
@@ -85,7 +72,7 @@ ul li {
   left: 20px;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
 .box-4 {
   position: relative;
@@ -96,7 +83,7 @@ ul li {
   left: 20px;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
 .box-5 {
   position: relative;
@@ -107,27 +94,27 @@ ul li {
   left: 20px;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
 .item {
   color: grey;
 }
 .shop {
-  font-size:13px ;
+  font-size: 13px;
   font-weight: 600;
   text-decoration: underline red;
   text-decoration-thickness: 2px;
   border-width: 4px;
   text-underline-offset: 5px;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
 }
-.women-category{
+.women-category {
   font-family: cookie, cursive;
   font-size: 70px;
   font-weight: 400;
 }
 .category {
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 24px;
   font-weight: 800;
 }
@@ -141,7 +128,7 @@ ul li {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: montserrat ,sans-serif;
+  font-family: montserrat, sans-serif;
 }
 .navigat {
   text-decoration: underline red;
@@ -166,9 +153,9 @@ ul li {
   row-gap: 8px;
   padding-top: 10px;
   padding-bottom: 20px;
-  font-family: montserrat ,sans-serif;
+  font-family: montserrat, sans-serif;
 }
-.product-text{
+.product-text {
   color: grey;
   font-size: 16px;
   font-weight: 400;
@@ -186,6 +173,7 @@ ul li {
 }
 
 .content-3 {
+  position: relative;
   position: relative;
 }
 .content {
@@ -206,7 +194,7 @@ ul li {
 }
 .banner-1 {
   color: red;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -215,6 +203,11 @@ ul li {
   font-size: 80px;
   font-family: cookie, cursive;
   font-weight: 500;
+}
+.banner-button {
+  position: absolute;
+}
+.banner-btn {
 }
 .trend-1 {
   display: flex;
@@ -330,6 +323,7 @@ ul li {
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
+  gap: 155px;
 }
 .suggestion {
   text-transform: uppercase;
@@ -338,12 +332,12 @@ ul li {
   text-decoration-thickness: 2px;
   border-width: 4px;
   text-underline-offset: 5px;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
-.suggestion-text{
-  font-family: montserrat,sans-serif;
+.suggestion-text {
+  font-family: montserrat, sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: grey;
@@ -370,12 +364,12 @@ ul li {
 .time-num {
   font-size: 30px;
   font-weight: 600;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
 }
 .time-time {
   font-size: 14px;
   font-weight: 500;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
 }
 .service-1 {
   display: flex;
@@ -400,16 +394,16 @@ ul li {
 .service {
   display: flex;
   flex-direction: row;
- column-gap: 109px;
+  column-gap: 109px;
   max-width: 1200px;
   margin: auto;
   padding: 50px;
 }
-.service-text{
+.service-text {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -425,6 +419,7 @@ ul li {
 .image {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
   margin: auto;
 }
@@ -443,7 +438,6 @@ ul li {
   margin-left: 210px;
   margin-top: 50px;
   text-align: center;
-  
 }
 .discount-text {
   text-align: center;
@@ -459,10 +453,10 @@ ul li {
   font-family: cookie, cursive;
   color: red;
 }
-.dis{
-  font-family: montserrat,sans-serif;
+.dis {
+  font-family: montserrat, sans-serif;
   font-size: 14px;
-  font-weight:400;
+  font-weight: 400;
 }
 .dis-shop {
   margin-left: 266px;
@@ -470,9 +464,9 @@ ul li {
   text-decoration-thickness: 2px;
   border-width: 4px;
   text-underline-offset: 5px;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 14px;
-  font-weight:700;
+  font-weight: 700;
 }
 .fa-money {
   color: red;
@@ -519,9 +513,9 @@ ul li {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 13px;
-  font-weight:400;
+  font-weight: 400;
 }
 .foot-payment {
   display: flex;
@@ -531,14 +525,14 @@ ul li {
   display: flex;
   flex-direction: column;
   row-gap: 14px;
-  font-family: montserrat,sans-serif;
+  font-family: montserrat, sans-serif;
   font-size: 14px;
-  font-weight:400;
+  font-weight: 400;
 }
-.link-text{
-  font-family: montserrat,sans-serif;
+.link-text {
+  font-family: montserrat, sans-serif;
   font-size: 15px;
-  font-weight:900;
+  font-weight: 900;
   color: black;
 }
 .facebook {
@@ -595,13 +589,38 @@ ul li {
   display: flex;
   gap: 10px;
 }
-/* .website {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
-/* @media (max-width: 1000px) {
+.website {
+}
+.main-menu-icon {
+  display: none;
+}
+@media (max-width: 990px) {
   .container-1 {
-    font-size: small;
+    grid-template-columns: repeat(autofill, minmax(400px, 1fr));
   }
-} */
+  .sale-post {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 770px) {
+  .sale-post {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .main-menu-icon {
+    display: block;
+    float: right;
+  }
+  .nav2,
+  .nav3 {
+    display: none;
+  }
+  .container-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sale-post {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
