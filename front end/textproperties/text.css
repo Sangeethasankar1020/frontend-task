@@ -1,0 +1,32 @@
+/* text decoration */
+.p1 {
+    text-decoration: none;
+    text-indent: 10cm;
+}
+
+.p2 {
+    text-decoration: line-through;
+    text-decoration-color: blue;
+}
+
+.p3 {
+    text-decoration: overline;
+    text-decoration-color: darkblue;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+}
+
+.p4 {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    text-decoration-thickness: 5px;
+}
+
+.p5 {
+    text-decoration: overline underline;
+}
+
+/* text color */
+.h1 {
+    text-decoration: rgb(56, 53, 55);
+}

@@ -1,0 +1,35 @@
+/* element sele */
+h2 {
+    color: blueviolet;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* class sele */
+
+.my-para {
+    color: brown;
+}
+
+.login-btn {
+    background-color: green;
+    color: white;
+}
+
+/* id sele */
+#my-second-para {
+    color: red;
+}
+
+/* group selector */
+.heading-tag-2,
+#heading-tag-3 {
+    color: gray;
+}
+
+/* universal selector */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

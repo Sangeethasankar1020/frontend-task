@@ -1,0 +1,30 @@
+/* background */
+.div1 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid green;
+    background-image: url(../nature.webp);
+    background-repeat: no-repeat;
+    /* background-image: conic-gradient(green,yellow,red);
+     */
+    /* background-image: linear-gradient(red, yellow, green); */
+    /* background-image: radial-gradient(blueviolet,yellow,green); */
+    /* background-image: repeating-radial-gradient(blueviolet,grey,green); */
+    /* background-image: repeating-linear-gradient(green,yellow,grey); */
+
+}
+
+.div2 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: url(../nature.webp);
+    background-origin: center top;
+}

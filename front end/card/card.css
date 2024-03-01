@@ -1,0 +1,42 @@
+/* card */
+.head {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main {
+    border: 1px solid=black;
+    size: 1px;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+
+}
+
+
+
+.inner-maindiv {
+    border: 1px solid black;
+    height: 215px;
+    width: 200px;
+    padding: 10px;
+}
+
+.fa {
+    text-align: center;
+    margin-left: 74px;
+}
+
+.para {
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin-left: 17px;
+    border-radius: 50px;
+    width: 85%;
+}

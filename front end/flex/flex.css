@@ -1,0 +1,44 @@
+/* visibility */
+.main {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-en d; */
+    /* align-items: end; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* align-content: space-evenly; */
+    /* align-content: space-around; */
+    /* gap: 20px; */
+    /* row-gap: 20px; */
+
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    /* visibility: visible;*/
+
+}
+
+.box1 {
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: blue;
+
+}
+
+.box3 {
+    background-color: brown;
+}
+
+.box4 {
+    background-color: yellow;
+}

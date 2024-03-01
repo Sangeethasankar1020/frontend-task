@@ -1,0 +1,52 @@
+/* border */
+/* dotted */
+.para1 {
+    border-style: dotted;
+    border-top: double;
+    border-color: blueviolet;
+    border-top-width: 4px;
+    padding-top: 10px;
+    color: black;
+
+}
+
+/* dashed */
+.para2 {
+    border-style: dashed;
+    border-right: solid;
+    border-color: chocolate;
+}
+
+/* solid */
+.para3 {
+    border-style: solid;
+    border-bottom: dashed;
+    border-color: brown;
+}
+
+/* double */
+.para4 {
+    border-style: double;
+    border-left: dotted;
+    border-color: rgb(111, 111, 206);
+}
+
+/* inset */
+.para5 {
+    border-style: inset;
+
+}
+
+/* outset */
+.para6 {
+    border-style: outset;
+}
+
+/* padding */
+.border {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border: 10px solid rgb(159, 116, 199);
+    background-color: rgb(204, 156, 122);
+}

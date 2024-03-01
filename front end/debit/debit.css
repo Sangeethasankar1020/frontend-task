@@ -1,0 +1,12 @@
+.main {
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: radial-gradient(rgb(52, 109, 233), blue);
+
+}
+
+.text {
+    color: rgb(252, 245, 245);
+}
