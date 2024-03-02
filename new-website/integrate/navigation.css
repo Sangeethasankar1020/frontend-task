@@ -1,0 +1,12 @@
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    gap: 20px;
+}
+.background{
+    position: relative;
+    color: rgb(56, 56, 201);
+}
+.navigation{
+    position: absolute;
+}
