@@ -1,0 +1,20 @@
+/* navigation */
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.header{
+  background-image: url(../food-website/images/banner-bg.jpg.webp);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  position: absolute;
+  animation: animation 15s ease-in-out infinite;
+}
+@keyframes animation{
+  0%{
+    left: 10%;
+    background-color: blue;
+  }
+  50%{
+    left: 60%;
+    background-color: aqua;
+    border-radius: 20%;
+  }
+  70%{
+    left: 80%;
+    background-color: brown;
+    border-radius: 50%;
+  }
+100%{
+right: 50%;
+background-color: red;
+border-radius:70% ;
+}
+}
