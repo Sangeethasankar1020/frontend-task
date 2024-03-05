@@ -1,0 +1,38 @@
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+.nav-2{
+    font-size: 16px;
+    font-family:'rubik', sans-serif;
+}
+.nav-3{
+    display: flex;
+    gap: 20px;
+}
+/* banner */
+.banner-part{
+    display: flex;
+}
+.banner-txt span{
+font-size: 64px;
+font-weight: 500;
+font-family: poppins,sans-serif;
+}
+.banner-pillow{
+    width: 740px;
+    height: 550px;
+    position: relative;
+}
+.banner-pattern{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
