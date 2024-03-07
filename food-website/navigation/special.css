@@ -1,0 +1,67 @@
+.primary-color {
+    color: #ffb606;
+}
+
+.special-center-txt {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.special-center-txt span {
+    font-family: "Playfair Display", serif;
+    font-size: 36px !important;
+    font-weight: 700;
+}
+
+.special-center-txt p {
+    font-style: italic;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* dishes */
+.dish-txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.num {
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.dish{
+    margin-left: 50px;
+}
+
+.dish span {
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.dish p {
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price{
+    color: #ffb606;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dishes-1 {
+    display: flex;
+    margin-right: 100px;margin-top: 50px;
+    gap: 50px;
+}
+
+.fa-long-arrow-right {
+    position: absolute;
+    animation: animation 2s;
+}

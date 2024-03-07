@@ -1,0 +1,42 @@
+.reservation-img{
+    position: relative;
+}
+.reservation-txt {
+    position: absolute;
+    color: white;
+    left: 400px;
+    top: 60px;
+    text-align: center;
+}
+
+.reservation-txt span {
+    font-family: "Playfair Display", serif;
+    font-size: 42px !important;
+    font-weight: 700;
+}
+
+.reservation-txt p {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.reservation-btn {
+    background: #ffb606;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    width: 140px;
+    border: #ffb606;
+}
+
+.reservation-btn:hover {
+    background: transparent;
+    border: 1px solid #ffb606;
+    color: #ffb606;
+    cursor: pointer;
+}

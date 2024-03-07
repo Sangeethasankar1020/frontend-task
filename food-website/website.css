@@ -148,42 +148,53 @@ ul li {
 
 }
 
-/* container
-.container-3 {
-  background-image: url(../food-website/images/food-bg.png.webp);
-  background-repeat: no-repeat;
-  background-position: top right;
+/* container*/
+.menu-background{
   position: relative;
+  float: right;
 }
-
-.display-menu {position: absolute;
-  width: 450px;
-  height: 250px;
-  margin-left: 110px;
-  margin-top: 50px;
-}
-.display-menu h3 {
-  font-family: "Playfair Display", serif;
-  font-size: 36px;
-}
-.display-menu p {
-  color: grey; 
-}
-.sale-post{
+.display-menu{
   position: absolute;
-  margin-top: 300px;
-} */
+  left: 140px;
+  width: 450px;
+  height: 260px;
+}
+.display-menu h3{
+font-family: "Playfair Display", serif;
+font-size: 36px !important;
+font-weight: 700;
+}
+ .display-menu p{
+  color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /* food */
+  .food{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .food-1{
+    width: 350px;
+    height: 450px;
+    border: 1px  solid black;
+  }
+
 /* reservation area */
+/* .reservation-area{
+  position: relative;
+} */
 .reservation-img {
-  object-fit: cover;
   position: relative;
 }
 
 .reservation-txt {
   position: absolute;
-  left: 350px;
-  top: 130px;
   color: white;
+  left: 0px;
+  top: 0px;
   text-align: center;
 }
 
