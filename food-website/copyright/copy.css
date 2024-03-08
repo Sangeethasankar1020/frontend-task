@@ -1,0 +1,33 @@
+.copy-right{
+    height: 100px;
+    width: 100%;
+    background-color:#131230 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.colorlib{
+    color: rgb(73, 73, 226);
+}
+.colorlib:hover{
+    color: rgb(9, 9, 173);
+}
+.copy-txt p{
+    color: white;
+}
+.fa-heart{
+    border: white;
+}
+.follow{
+ display: flex;align-items: center;gap: 20px;
+ color: white;
+}
+.follow-icon{
+    font-size: 14px;gap: 20px;display: flex;
+
+
+}
+.fa-facebook-f:hover,.fa-twitter:hover,.fa-google-plus:hover,.fa-pinterest:hover,.fa-instagram:hover{
+    color: #ffb606;
+}

@@ -22,6 +22,9 @@
 }
 /* dishes */
 .dish-txt{
+    height: 380px;
+    width: 480px; 
+    border: none;
     display: flex;
     flex-direction: column;
     margin-left: 150px;
@@ -32,36 +35,44 @@
     font-weight: 700;
 }
 .dish{
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
-.dish span {
+.green ,.primary-color{
     font-size: 36px;
     font-family: "Playfair Display", serif;
     font-weight: 700;
+
+    
 }
 
-.dish p {
+.dish-para{
     color: gray;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .price{
     color: #ffb606;
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
-
+.dish-book{
+    color: #131230;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
 .dishes-1 {
     display: flex;
     margin-right: 100px;margin-top: 50px;
-    gap: 50px;
+    gap: 130px;
 }
-
-.fa-long-arrow-right {
-    position: absolute;
-    animation: animation 2s;
+.dishes-2{
+    display: flex;
+    margin-left:110px ;
+    gap: 40px;
 }

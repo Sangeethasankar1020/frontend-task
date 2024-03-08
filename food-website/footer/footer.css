@@ -1,15 +1,24 @@
 .footer {
     height: 400px;
     width: 100%;
-    background-color: #131230;
+    background-color:#131230;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;gap: 130px;
 
+}
+.footer-1,.contact,.operating-hours{
+    height: 200px;
+    width: 290px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .footer-1 p {
     color: #777;
+    line-height: 1.5;
 }
 
 .contact {
@@ -26,9 +35,12 @@
     gap: 20px;
 }
 
-.operating-hours h5,
-.contact h5 {
+.operating-hours span,
+.contact span {
     color: #ffb606;
+    font-family: "Playfair Display", serif;
+    font-size: 20px !important;
+    font-weight: 700;
 }
 
 .operating-hours p {

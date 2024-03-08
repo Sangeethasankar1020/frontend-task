@@ -1,0 +1,29 @@
+.dish h1{
+    font-size: 60px;
+    font-family: "Playfair Display",serif;
+    font-weight: 700;
+}
+.dish span{
+  font-size: 36px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.dish p{
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.dish h5{
+  color: #ffb606;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dishes-1{
+  display: flex;
+}
+.fa-long-arrow-right{
+position: absolute;
+animation: animation 2s;
+}
