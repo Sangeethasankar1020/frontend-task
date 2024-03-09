@@ -14,48 +14,50 @@
     margin: auto;
 }
 
-ul li {
-    list-style-type: none;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
     display: inline-block;
-    padding: 15px;
+    position: relative;
     font-family: roboto, sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
 
-.dropdown {
-    float: right;
-    overflow: hidden;
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li:hover>ul {
+    display: block;
 
 }
 
-.dropdown .drop-btn {
-    font-family: roboto, sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    background-color: white;
-}
-
-.drop-content {
+nav ul ul {
     display: none;
     position: absolute;
-    min-width: 160px;
-    background-color: white;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    width: 200px;
 }
 
-.dropdown:hover .drop-btn {
-    background-color: white;
-}
-
-.drop-content a:hover {
-    color: #ffb606;
-}
-
-.dropdown:hover .drop-content {
+nav ul ul li {
     display: block;
 }
 
+.dropdown-menu a:hover {
+    color: #ffb606;
+}
 .main-menu-icon {
     display: none;
 }
@@ -72,7 +74,7 @@ ul li {
 .header-txt {
     position: absolute;
     top: 330px;
-    left: 450px;
+    left: 380px;
     color: white;
     text-align: center;
 }
@@ -104,8 +106,8 @@ ul li {
     display: flex;
     gap: 50px;
     margin-top: 70px;
-    margin: auto;
     width: 90%;
+    justify-content: center;
 }
 
 .book-btn {
@@ -147,6 +149,7 @@ ul li {
     font-weight: 400;
 
 }
+
 /* container */
 .menu-background {
     position: relative;
@@ -172,30 +175,15 @@ ul li {
     font-size: 14px;
     font-weight: 400;
 }
-@media (max-width: 980px) {
-    .main-menu-icon {
-        display: block;
-        float: right;
-        height: 40px;
-        width: 40px;
-        border-radius: 3px;
-        background-color: #ffb606;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .fa-bars {
-        color: white;
-    }
-
-    .nav-2 {
-        display: none;
-    }
-}
 /* container-2 */
-.food-bg{
+.food-container {
+    margin-top: -130px;
+    height: 1450px;
+    width: 100%;
+}
+
+.food-bg {
     height: 1000px;
     width: 100%;
     border: none;
@@ -204,6 +192,7 @@ ul li {
     position: relative;
     background-position: right;
 }
+
 .display-menu {
     position: absolute;
     left: 140px;
@@ -225,6 +214,7 @@ ul li {
     font-weight: 400;
     line-height: 1.5;
 }
+
 .header-txt-color {
     color: #ffb606;
 
@@ -243,7 +233,9 @@ ul li {
 .food-1,
 .food-2,
 .food-3,
-.food-4,.food-5,.food-6 {
+.food-4,
+.food-5,
+.food-6 {
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -277,18 +269,32 @@ ul li {
     overflow: hidden;
     margin-top: -10px;
 }
-
+.food-img{
+   overflow: hidden;
+}
+.food-img img{
+    transition: transform 0.3s ease;
+}
+.food-1:hover,.food-2:hover,.food-3:hover,.food-4:hover,.food-5:hover,.food-6:hover{
+    .food-txt{
+        background-color: #ffb606;
+    }
+    .food-txt-name span,.food-txt p{
+        color: #01010e;
+    }
+    .food-img img{
+        transform: scale(1.1);
+    }
+}
 .food-txt p {
     color: grey;
 }
 
 /* reservation */
-.reservation{
-    margin-top: 400px;
-}
-.reservation-img{
+.reservation-img {
     position: relative;
 }
+
 .reservation-txt {
     position: absolute;
     color: white;
@@ -328,6 +334,7 @@ ul li {
     color: #ffb606;
     cursor: pointer;
 }
+
 /* dishes */
 .primary-color {
     color: #ffb606;
@@ -351,33 +358,35 @@ ul li {
     font-size: 14px;
     font-weight: 400;
 }
+
 /* dishes */
-.dish-txt{
+.dish-txt {
     height: 380px;
-    width: 480px; 
+    width: 450px;
     border: none;
     display: flex;
-    flex-direction: column;
-    margin-left: 150px;
 }
+
 .num {
     font-size: 60px;
     font-family: "Playfair Display", serif;
     font-weight: 700;
 }
-.dish{
-    margin-left: 70px;
+
+.dish {
+    margin-top: 70px;
 }
 
-.green ,.primary-color{
+.green,
+.primary-color {
     font-size: 36px;
     font-family: "Playfair Display", serif;
     font-weight: 700;
 
-    
+
 }
 
-.dish-para{
+.dish-para {
     color: gray;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -385,145 +394,187 @@ ul li {
     line-height: 1.5;
 }
 
-.price{
+.price {
     color: #ffb606;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
 }
-.dish-book{
+
+.dish-book {
     color: #131230;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
 }
-.dishes-1 {
+
+.dishes-1,.dishes-2 {
     display: flex;
-    margin-right: 100px;margin-top: 50px;
     gap: 130px;
 }
-.dishes-2{
+.main-dish {
+    margin-top: 50px;
     display: flex;
-    margin-left:110px ;
-    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
+
+
 /* customer */
-.customer{
+.customer {
     margin-top: 50px;
 }
-.customer-img{
+
+.customer-img {
     position: relative;
 }
-.customer-over{
+
+.customer-over {
     position: absolute;
     background-color: rgba(1, 7, 16, 0.7);
     top: 0;
     left: 0;
     width: 100%;
     height: 480px;
-    
+
 }
-.primary-color{
-    color:#ffb606 ;
+
+.primary-color {
+    color: #ffb606;
 }
-.customer-over span{
+
+.customer-over span {
     font-family: "Playfair Display", serif;
     font-size: 36px !important;
     font-weight: 700;
 }
-.customer-over p{
+
+.customer-over p {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
-.customer-over-txt{
+
+.customer-over-txt {
     position: absolute;
     top: 170px;
     left: 430px;
     color: white;
     text-align: center;
 }
+
 /* update */
-.update{
+.update {
     margin-top: 50px;
 }
-.card-update{
+
+.card-update {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 50px;
 }
 
-.update-card{
+.update-card {
     height: 500px;
     width: 350px;
     border: none;
     background-color: rgb(248, 242, 242);
-    
+
 }
-.update-card-img{
+
+.update-card-img {
     border-style: none;
 }
-.update-card:hover{
+
+.update-card:hover {
     background-color: white;
 }
 
-.update-inner-txt,.admin,.calendar{
-    display: flex;gap: 20px;
+.update-inner-txt,
+.admin,
+.calendar {
+    display: flex;
+    gap: 20px;
     align-items: baseline;
 
 }
-.admin,.calendar,.food-update{
+
+.admin,
+.calendar,
+.food-update {
     color: #777;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
-.update-card-txt{
-    display: flex;gap: 10px;
+
+.update-card-txt {
+    display: flex;
+    gap: 10px;
     flex-direction: column;
     padding: 30px;
+    margin-top: -10px;
 }
-.primary-color{
+
+.update-card-txt:hover {
+    box-shadow: 0px 10px 10px 10px #bdb9b9;
+}
+
+.primary-color {
     color: #ffb606;
 }
-.update-top{
+
+.update-top {
     text-align: center;
 }
-.update-top span{
+
+.update-top span {
     font-family: "Playfair Display", serif;
     font-size: 36px !important;
     font-weight: 700;
 }
-.update-top p{
+
+.update-top p {
     color: #777;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
-.finer-food{
+
+.finer-food {
     color: #131230;
     font-family: "Playfair Display", serif;
     text-transform: capitalize;
     font-size: 20px !important;
     font-weight: 700;
 }
-.read{
+
+.read {
     color: #131230;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
 }
+.fa-long-arrow-right:hover{
+ color: #ffb606;
+}
+
 /* book */
-.book{
+.book {
     margin-top: 100px;
 }
-.book-img{
+
+.book-img {
     position: relative;
     object-fit: cover;
 }
-.book-img-over{
+
+.book-img-over {
     position: absolute;
     background-color: rgba(1, 7, 16, 0.7);
     top: 0;
@@ -531,60 +582,93 @@ ul li {
     width: 100%;
     height: 500px;
 }
-.book-btn{
-    background-color:#ffb606 ;
+
+.book-btn {
+    background-color: #ffb606;
     padding: 15px;
     width: 150px;
-    border:#ffb606;
+    border: #ffb606;
 }
-.book-btn:hover{
+
+.book-btn:hover {
     background: transparent;
     border: 1px solid #ffb606;
     color: #ffb606;
     cursor: pointer;
 }
-.book-txt{
-   position: absolute;
-   color: white;
-   left: 420px;
+
+.book-txt {
+    position: absolute;
+    color: white;
+    left: 420px;
     top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 40px;
-  
+
 }
-.book-t{
+
+.book-t {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.primary-color{
+
+.primary-color {
     color: #ffb606;
 }
-.book-t span{
+
+.book-t span {
     font-family: "Playfair Display", serif;
     font-size: 36px !important;
     font-weight: 700;
 }
-.book-t p{
+
+.book-t p {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
+
+.book-icon {
+    display: flex;
+}
+
+.book-input {
+    position: relative;
+    outline: 0;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icon-calendar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: black;
+}
+
 /* footer */
 .footer {
     height: 400px;
     width: 100%;
-    background-color:#131230;
+    background-color: #131230;
     display: flex;
     justify-content: center;
-    align-items: center;gap: 130px;
+    align-items: center;
+    gap: 130px;
     margin-top: -10px;
 
 }
-.footer-1,.contact,.operating-hours{
+
+.footer-1,
+.contact,
+.operating-hours {
     height: 200px;
     width: 290px;
     font-family: "Roboto", sans-serif;
@@ -623,37 +707,130 @@ ul li {
 .operating-hours p {
     color: #777;
 }
+
 /* copyright */
-.copy-right{
+.copy-right {
     height: 100px;
     width: 100%;
-    background-color:#01010e ;
+    background-color: #01010e;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
-.colorlib{
+
+.colorlib {
     color: rgb(73, 73, 226);
 }
-.colorlib:hover{
+
+.colorlib:hover {
     color: rgb(9, 9, 173);
 }
-.copy-txt p{
+
+.copy-txt p {
     color: white;
 }
-.fa-heart{
+
+.fa-heart {
     border: white;
 }
-.follow{
- display: flex;align-items: center;gap: 20px;
- color: white;
+
+.follow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
 }
-.follow-icon{
-    font-size: 14px;gap: 20px;display: flex;
+
+.follow-icon {
+    font-size: 14px;
+    gap: 20px;
+    display: flex;
 
 
 }
-.fa-facebook-f:hover,.fa-twitter:hover,.fa-google-plus:hover,.fa-pinterest:hover,.fa-instagram:hover{
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-google-plus:hover,
+.fa-pinterest:hover,
+.fa-instagram:hover {
     color: #ffb606;
+}
+@media(max-width:1070px){
+    .header-txt{
+        left: 250px;
+    }
+    .container-txt-2 p{
+        line-height: 1.5;
+    }
+    .container-img-2 img{
+        height: 450px;width: 450px;margin-top: 90px;
+    }
+    .food-container {
+        margin-top: -190px;
+    }
+    .food,.display-menu{
+        left: 40px;
+    }
+    .food-1,.food-2,.food-3,.food-4,.food-5,.food-6 {
+            width: 300px;
+            height: 450px;
+    }
+    .food-txt-name{
+        gap: 30px;
+    }
+    .reservation-img img{
+        height: 400px;
+    }
+    .reservation-txt {
+        left: 269px;
+        top: 111px;
+    }
+    .reservation-txt span{
+        font-size: 35px !important;
+    }
+    .reservation-txt p{
+        font-size: 20px !important;
+    }
+    
+    .dishes-1,.dishes-2{
+        gap: 50px;
+    }
+    .customer-over-txt{
+        left: 330px;
+    }
+    .update-card {
+            height: 520px;
+            width: 300px;
+    }
+    .book-txt{
+        left: 240px;
+    }
+    .footer{
+        gap: 50px;
+    }
+
+}
+@media (max-width: 980px) {
+    .main-menu-icon {
+        display: block;
+        float: right;
+        height: 40px;
+        width: 40px;
+        border-radius: 3px;
+        background-color: #ffb606;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-bars {
+        color: white;
+    }
+
+    .nav-2 {
+        display: none;
+    }
 }

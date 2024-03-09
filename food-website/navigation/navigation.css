@@ -12,49 +12,50 @@
     right: 30px;
     margin: auto;
 }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
 
-ul li {
-    list-style-type: none;
+nav ul li {
     display: inline-block;
-    padding: 15px;
+    position: relative;
     font-family: roboto, sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
 
-.dropdown {
-    float: right;
-    overflow: hidden;
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li:hover>ul {
+    display: block;
 
 }
 
-.dropdown .drop-btn {
-    font-family: roboto, sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    background-color: white;
-}
-
-.drop-content {
+nav ul ul {
     display: none;
     position: absolute;
-    min-width: 160px;
-    background-color: white;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    width: 200px;
 }
 
-.dropdown:hover .drop-btn {
-    background-color: white;
-}
-
-.drop-content a:hover {
-    color: #ffb606;
-}
-
-.dropdown:hover .drop-content {
+nav ul ul li {
     display: block;
 }
-
+.dropdown-menu a:hover{
+    color: #ffb606;
+}
+/* menu */
 .main-menu-icon {
     display: none;
 }

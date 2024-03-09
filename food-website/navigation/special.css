@@ -23,11 +23,10 @@
 /* dishes */
 .dish-txt{
     height: 380px;
-    width: 480px; 
+    width: 450px; 
     border: none;
     display: flex;
-    flex-direction: column;
-    margin-left: 150px;
+   
 }
 .num {
     font-size: 60px;
@@ -35,7 +34,7 @@
     font-weight: 700;
 }
 .dish{
-    margin-left: 70px;
+   margin-top: 70px;
 }
 
 .green ,.primary-color{
@@ -68,11 +67,18 @@
 }
 .dishes-1 {
     display: flex;
-    margin-right: 100px;margin-top: 50px;
     gap: 130px;
 }
 .dishes-2{
     display: flex;
-    margin-left:110px ;
-    gap: 40px;
+    gap: 130px;
+}
+.main-dish{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
