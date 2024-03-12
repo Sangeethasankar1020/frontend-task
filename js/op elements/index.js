@@ -1,0 +1,6 @@
+alert("Welcome ")
+prompt("Enter Name")
+prompt("Enter Mobile Num")
+prompt("Enter E-Mail id")
+document.write("hi Sree , is everything is okay!")
+console.log("good ")

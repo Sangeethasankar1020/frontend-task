@@ -833,4 +833,15 @@ nav ul ul li {
     .nav-2 {
         display: none;
     }
+    .food-bg{
+        background-image: none;
+    }
+    .food{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-update{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 40px 0px 0px 100px;
+    }
 }
