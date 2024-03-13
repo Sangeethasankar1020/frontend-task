@@ -24,3 +24,17 @@
     @extend .box1;
     background-color: $bg_color;
 }
+nav{
+    ul{
+        list-style-type: none;
+    }
+    li{
+        color: blueviolet;
+    }
+}
+ @mixin para{
+    background-color: red;
+ }
+ .my-para{
+    @include para;
+ }

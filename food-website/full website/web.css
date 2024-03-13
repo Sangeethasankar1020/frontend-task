@@ -58,6 +58,7 @@ nav ul ul li {
 .dropdown-menu a:hover {
     color: #ffb606;
 }
+
 .main-menu-icon {
     display: none;
 }
@@ -269,23 +270,35 @@ nav ul ul li {
     overflow: hidden;
     margin-top: -10px;
 }
-.food-img{
-   overflow: hidden;
+
+.food-img {
+    overflow: hidden;
 }
-.food-img img{
+
+.food-img img {
     transition: transform 0.3s ease;
 }
-.food-1:hover,.food-2:hover,.food-3:hover,.food-4:hover,.food-5:hover,.food-6:hover{
-    .food-txt{
+
+.food-1:hover,
+.food-2:hover,
+.food-3:hover,
+.food-4:hover,
+.food-5:hover,
+.food-6:hover {
+    .food-txt {
         background-color: #ffb606;
     }
-    .food-txt-name span,.food-txt p{
+
+    .food-txt-name span,
+    .food-txt p {
         color: #01010e;
     }
-    .food-img img{
+
+    .food-img img {
         transform: scale(1.1);
     }
 }
+
 .food-txt p {
     color: grey;
 }
@@ -408,10 +421,12 @@ nav ul ul li {
     font-weight: 500;
 }
 
-.dishes-1,.dishes-2 {
+.dishes-1,
+.dishes-2 {
     display: flex;
     gap: 130px;
 }
+
 .main-dish {
     margin-top: 50px;
     display: flex;
@@ -560,8 +575,9 @@ nav ul ul li {
     font-size: 14px;
     font-weight: 500;
 }
-.fa-long-arrow-right:hover{
- color: #ffb606;
+
+.fa-long-arrow-right:hover {
+    color: #ffb606;
 }
 
 /* book */
@@ -757,61 +773,112 @@ nav ul ul li {
 .fa-instagram:hover {
     color: #ffb606;
 }
-@media(max-width:1070px){
-    .header-txt{
+
+@media(max-width:1115px) {
+    .header-txt {
         left: 250px;
     }
-    .container-txt-2 p{
+
+    .container-txt-2 p {
         line-height: 1.5;
     }
-    .container-img-2 img{
-        height: 450px;width: 450px;margin-top: 90px;
+
+    .container-img-2 img {
+        height: 450px;
+        width: 450px;
+        margin-top: 90px;
     }
+
     .food-container {
         margin-top: -190px;
     }
-    .food,.display-menu{
+
+    .food,
+    .display-menu {
         left: 40px;
     }
-    .food-1,.food-2,.food-3,.food-4,.food-5,.food-6 {
-            width: 300px;
-            height: 450px;
+
+    .food-1,
+    .food-2,
+    .food-3,
+    .food-4,
+    .food-5,
+    .food-6 {
+        width: 300px;
+        height: 450px;
     }
-    .food-txt-name{
+
+    .food-txt-name {
         gap: 30px;
     }
-    .reservation-img img{
+
+    .reservation-img img {
         height: 400px;
     }
+
     .reservation-txt {
         left: 269px;
         top: 111px;
     }
-    .reservation-txt span{
+
+    .reservation-txt span {
         font-size: 35px !important;
     }
-    .reservation-txt p{
+
+    .reservation-txt p {
         font-size: 20px !important;
     }
-    
-    .dishes-1,.dishes-2{
+
+    .dishes-1,
+    .dishes-2 {
         gap: 50px;
     }
-    .customer-over-txt{
+
+    .customer-over-txt {
         left: 330px;
     }
+
     .update-card {
-            height: 520px;
-            width: 300px;
+        height: 520px;
+        width: 300px;
     }
-    .book-txt{
+
+    .book-txt {
         left: 240px;
     }
-    .footer{
+
+    .footer {
         gap: 50px;
     }
 
 }
+
+@media(max-width: 1025px) {
+    .food-bg {
+        background-image: none;
+    }
+
+    .food-1,
+    .food-2,
+    .food-3,
+    .food-4,
+    .food-5,
+    .food-6 {
+        width: 250px;
+        height: 410px;
+    }
+
+    .food,
+    .display-menu {
+        left: 90px;
+    }
+
+    .update-card {
+        height: 500px;
+        width: 250px;
+    }
+}
+
 @media (max-width: 980px) {
     .main-menu-icon {
         display: block;
@@ -833,15 +900,171 @@ nav ul ul li {
     .nav-2 {
         display: none;
     }
-    .food-bg{
-        background-image: none;
+
+    .container-img-2 img {
+        height: 400px;
+        width: 400px;
     }
-    .food{
+
+    .container-txt-2 h3,
+    .display-menu h3,
+    .num,
+    .green,
+    .primary-color {
+        font-size: 30px !important;
+    }
+
+    .container-txt-2 p,
+    .display-menu p,
+    .dish-para,
+    .price {
+        font-size: 12px;
+    }
+
+    .book-btn {
+        padding: 10px;
+        width: 130px;
+    }
+
+    .food {
+        margin-top: 30px;
+    }
+
+    .dish-img img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .dish {
+        margin-top: 50px;
+    }
+
+    .dishes-1,
+    .dishes-2 {
+        gap: 20px;
+    }
+}
+
+@media(max-width:930px) {
+    .header-txt {
+        left: 195px;
+        top: 290px;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-img-2 img {
+        height: 550px;
+        width: 550px;
+    }
+
+    .container-txt-2 h3,
+    .display-menu h3,
+    .num,
+    .green,
+    .primary-color {
+        font-size: 40px !important;
+    }
+
+    .container-txt-2 p,
+    .display-menu p,
+    .dish-para,
+    .price {
+        font-size: 15px;
+    }
+
+    .food-1,
+    .food-2,
+    .food-3,
+    .food-4,
+    .food-5,
+    .food-6 {
+        width: 350px;
+        height: 400px;
+    }
+
+    .food-img img {
+        width: 350px;
+    }
+
+    .food {
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 130px;
+        gap: 10px;
     }
-    .card-update{
+
+    .reservation {
+        margin-top: 300px;
+    }
+
+    .reservation-txt {
+        left: 220px;
+    }
+
+    .card-update {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 40px 0px 0px 100px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
+
+    .update-card {
+        height: 480px;
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    .customer-over-txt {
+        left: 250px;
+    }
+
+    .book-txt {
+        left: 160px;
+    }
+}
+
+@media(max-width:850px) {
+    .header-txt h1 {
+        font-size: 45px !important;
+    }
+
+    .food-1,
+    .food-2,
+    .food-3,
+    .food-4,
+    .food-5,
+    .food-6 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .food-img img {
+        width: 300px;
+    }
+
+    .reservation-txt {
+        left: 140px;
+    }
+
+    .dishes-1,
+    .dishes-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customer-over-txt {
+        left: 195px;
+    }
+
+    .card-update {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .book-txt {
+            left: 145px;}
 }
