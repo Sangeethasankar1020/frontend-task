@@ -1068,3 +1068,34 @@ nav ul ul li {
         .book-txt {
             left: 145px;}
 }
+@media(max-width:760px){
+    .food{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        left: 210px;
+        top: 240px;
+        gap: 20px;
+    }
+    .reservation{
+        margin-top: 1500px;
+    }
+    .customer-over-txt {
+            left: 160px;
+    }
+    .card-update{
+        gap: 20px;
+    }
+    .book-txt {
+            left: 75px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }.copy-right{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+}

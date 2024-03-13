@@ -1,4 +1,14 @@
 @import "./var";
+
+nav {
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        color: blueviolet;
+    }
+}
 .box{
     width: 600px;
     height: 600px;
@@ -24,14 +34,7 @@
     @extend .box1;
     background-color: $bg_color;
 }
-nav{
-    ul{
-        list-style-type: none;
-    }
-    li{
-        color: blueviolet;
-    }
-}
+
  @mixin para{
     background-color: red;
  }
