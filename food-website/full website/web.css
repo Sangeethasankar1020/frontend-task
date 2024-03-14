@@ -1099,3 +1099,128 @@ nav ul ul li {
         height: 100px;
     }
 }
+@media(max-width:690px){
+    .customer-over-txt {
+        left: 100px;
+    }
+    .book-txt {
+        left: 125px;
+    }
+    .book-t span{
+        font-size: 24px !important;
+    }
+    .book-t p{
+        font-size: 12px;
+    }
+    .input{
+        width: 80px;
+    }
+    .book-btn{
+        width: 120px;
+    }
+}
+@media(max-width:570px){
+    .header-txt h1 {
+        font-size: 30px !important;
+    }
+    .header-txt h6{
+        font-size: 16px !important;
+    }
+    .header-txt {
+        left: 95px;
+        top: 230px;
+    }
+    .container-img-2 img,.container-txt-2 {
+            height: 500px;
+            width: 450px;
+    }
+    .food,.display-menu {
+            left: 45px;
+    }
+    .food{
+        top: 280px;
+    }
+    .reservation-txt span ,.reservation-txt p{
+        font-size: 15px !important;
+    }
+    .reservation-btn{
+        width: 115px;
+    }
+    .reservation-txt {
+        left: 135px;
+        top: 140px;
+    }
+    .customer-over-txt {
+     left: 65px;
+    }
+    .book-txt {
+        left: 100px;
+    }
+    .copy-txt p {
+        font-size: 12px;
+    }
+}
+@media(max-width:520px){
+.header-txt {
+ left: 80px;
+}
+.container-img-2 img,.container-txt-2 {
+    height: 500px;
+    width: 300px;
+}
+.display-menu{
+    width: 300px;margin-top: 140px;
+}
+.food {
+    top: 300px;
+    left: 70px;
+}
+.reservation {
+    margin-top: 1530px;
+}
+.reservation-img img {
+    height: 300px;
+}
+.reservation-txt {
+    left: 107px;
+    top: 90px;
+}
+.dish-txt  {
+    width: 300px;
+    height: 450px;
+}
+.dish-img img{
+    width: 300px;
+    height: 300px;
+}
+.customer-over span {
+    font-size: 25px !important;
+}
+.customer-over p {
+    font-size: 12px;
+}
+.update-card {
+    height: 530px;
+    width: 250px;
+}
+.book-txt {
+    left: 65px;
+}
+}
+@media(max-width:410px){
+    .header-txt{
+        left:22px ;
+    }
+    .food{
+        left: 25px;
+    }
+    .reservation-txt{
+        left: 50px;
+    }
+    .customer-over-txt {
+     left: 12px;
+    }
+    .book-txt {
+        left: 2px;
+    }
+}
