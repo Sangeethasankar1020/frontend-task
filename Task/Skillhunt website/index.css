@@ -1,0 +1,108 @@
+.user-img {
+    background-image: url(./image/bg_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.user-img,
+.user-img-overlay {
+    height: 800px;
+    width: 100%;
+}
+
+.user-img-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, #207dff 0%, #a16ae8 100%);
+    opacity: .8;
+}
+
+.nav-logo {
+    color: white;
+}
+
+.nav-logo:hover {
+    color: #000000;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 390px;
+}
+
+.home {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+ul li:hover {
+    color: #fdab44;
+}
+
+.btn-1,
+.btn-2,
+.find-btn,
+.candidate-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+}
+
+.btn-1 {
+    color: white;
+    background-color: #207dff;
+}
+
+.btn-2 {
+    color: white;
+    background-color: #fdab44;
+}
+
+.home-txt {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    text-align: center;
+}
+
+.globe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.find-btn {
+    color: black;
+}
+
+.candidate-btn {
+    color: white;
+    background-color: #fdab44;
+}
+
+.candidate-btn:hover {
+    color:black;
+    background-color: white;
+}
