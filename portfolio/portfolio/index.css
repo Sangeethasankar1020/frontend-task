@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    background-color: black;
+}
+.title,.link {
+    color: rgb(132, 77, 231);}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.section-p-1,
+.section-p-2 {
+    color:#d2d2d2;
+}
+
+.section-p-1 {
+    font-size: 16px;
+    font-family: 600;
+}
+
+.section-p-2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.btn-1,.btn-2 {
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(132, 77, 231);
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-1{
+background-color: white;
+color: rgb(132, 77, 231);
+}
+.btn-2{
+    background-color: rgb(132, 77, 231);
+    color:white;
+}
+.profile-details,.social{
+    display: flex;
+    gap: 10px;
+}
+.section-p-2,.title{
+    letter-spacing: 3px;
+}
+.title-align{
+    text-align: center;
+}
+.project-box{
+    height: 400px;
+    width: 500px;
+    border: 1px solid rgb(132, 77, 231);
+    border-radius: 10px;
+    gap: 15px;
+}
+.project ,.project-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-title{
+    color: rgb(132, 77, 231);
+    font-size: 14px;
+    font-weight: 600;
+}
+.tech-logo-main{
+    display: flex;
+    justify-content: center;
+}
+.tech-logo{
+    height: 100px;
+    width: 100px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.about-text,.contact-text{
+    display: flex;
+    line-height: 1.5;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    font-weight: 600;
+}
+@media (max-width: 980px) {
+    .main-menu-icon {
+        display: block;
+        float: right;
+        height: 40px;
+        width: 40px;
+        border-radius: 3px;
+        background-color: rgb(132, 77, 231);
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-bars {
+        color: white;
+    }
+
+    .nav-link {
+        display: none;
+    }
+}
