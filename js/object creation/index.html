@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Object </title>
+    </head>
+
+    <body>
+        <script>
+            // object creation
+            // 1
+            let myDate = {
+                Name: "Sangeetha S",
+                Age: 22,
+                address: "no 12, pombur",
+                contact: 765723826
+            }
+            console.log(myDate, "mydata")
+            // 2
+            let menuList = {};
+            menuList.Name = "Dosa";
+            menuList.rate = "40";
+            console.log(menuList, "menu")
+            // 3
+            const car = new Object();
+            car.Name = "swift";
+            car.price = "4lac";
+            car.model = "open type";
+            console.log(car, "car")
+            // access
+            // dot
+            var dotAccess = myDate.Name;
+            console.log(dotAccess, "dotAccess")
+            // square
+            var squareAccess = menuList["rate"]
+            console.log(squareAccess, "square access")
+            // destructuring 
+            const { Name, price } = car;
+            console.log(Name, "destructing")
+        </script>
+    </body>
+
+</html>
