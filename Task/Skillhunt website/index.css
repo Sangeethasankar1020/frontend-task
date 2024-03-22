@@ -77,17 +77,19 @@ ul li:hover {
 
 .home-txt {
     position: absolute;
-    left: 100px;
-    top: 200px;
+    left: 320px;
+    top: 250px;
     text-align: center;
 }
 
-.globe {
+.globe ,.icon{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
+.icon{
+    justify-content: center;
+}
 .column {
     display: flex;
     flex-direction: column;
@@ -105,4 +107,48 @@ ul li:hover {
 .candidate-btn:hover {
     color:black;
     background-color: white;
+}
+.search-box{
+    width: 700px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-box{
+    position: relative;
+}
+.icon-brief{
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.position{
+    display: flex;
+    position: absolute;
+    top: 710px;
+    left: 70px;
+}
+.position-box,.position-box-orange{
+    height: 200px;
+    width: 200px;
+    border: .5px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.position-box-orange{
+ background-color: #fdab44;
+}
+.position-box{
+    background-color: white;
+}
+.position-box:hover,.position-box-orange:hover{
+    color: white;
+    background-color: #207dff;
 }
