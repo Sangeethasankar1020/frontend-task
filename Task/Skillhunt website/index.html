@@ -1,204 +1,514 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Skill hunt</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="./index.js"></script>
-    </head>
+<head>
+    <title>Skill hunt</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./index.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
 
-    <body>
-        <!-- home part -->
-        <article>
-            <section class="user-img">
-                <div class="user-img-overlay"></div>
-                <nav class="nav-bar">
-                    <div class="nav-logo">
-                        <a>SkillHunt</a>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="home">Home</li>
-                            <li>Browse Jobs</li>
-                            <li>Canditates</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
-                            <li><button class="btn-1">Post a Job</button> <button class="btn-2">Want a Job</button></li>
+<body>
+    <!-- home part -->
+    <article>
+        <section class="user-img">
+            <div class="user-img-overlay"></div>
+            <nav class="nav-bar">
+                <div class="nav-logo">
+                    <a>SkillHunt</a>
+                </div>
+                <div>
+                    <ul>
+                        <li class="home">Home</li>
+                        <li>Browse Jobs</li>
+                        <li>Canditates</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <li><button class="btn-1">Post a Job</button> <button class="btn-2">Want a Job</button></li>
 
-                        </ul>
-                    </div>
-                </nav>
-                <section class="home-txt">
-                    <p>Find Job, Employment, and Career Opportunities</p>
-                    <h1>The Eassiest Way to Get Your New Job</h1>
-                    <section class="icon">
-                        <article class="globe">
-                            <div>
-                                <i class="fa fa-globe" style="font-size:48px;color:white"></i>
-                            </div>
-                            <div class="column">
-                                <span>46</span>
-                                <span>Countries</span>
-                            </div>
-                        </article>
-                        <article class="globe">
-                            <div>
-                                <i class="fa fa-group" style="font-size:42px;color:white"></i>
-                            </div>
-                            <div class="column">
-                                <span>450</span>
-                                <span>Companies</span>
-                            </div>
-                        </article>
-                        <article class="globe">
-                            <div>
-                                <i class="fa fa-file-code-o" style="font-size:42px;color:white"></i>
-                            </div>
-                            <div class="column">
-                                <span>80,000</span>
-                                <span>Active Employees</span>
-                            </div>
-                        </article>
-                    </section>
-
-                    <div>
-                        <button class="find-btn">Find a Job</button>
-                        <button class="candidate-btn">Find a Candidate</button>
-                    </div>
-                    <section class="search-box">
-                        <section>
-                            <div class="input-box">
-                                <input type="text" class="input" placeholder="eg.Graphic Designer">
-                            </div>
-                        </section>
+                    </ul>
+                </div>
+            </nav>
+            <section class="home-txt">
+                <p>Find Job, Employment, and Career Opportunities</p>
+                <h1>The Eassiest Way to Get Your New Job</h1>
+                <section class="icon">
+                    <article class="globe">
                         <div>
-                            <select>
-                                <option>Category</option>
-                                <option>Full time</option>
-                                <option>Part Time</option>
-                                <option>Freelance</option>
-                                <option>Internship</option>
-                                <option>Temporary</option>
-                            </select>
+                            <i class="fa fa-globe" style="font-size:48px;color:white"></i>
                         </div>
+                        <div class="column">
+                            <span>46</span>
+                            <span>Countries</span>
+                        </div>
+                    </article>
+                    <article class="globe">
                         <div>
-                            <input type="text" placeholder="Location">
+                            <i class="fa fa-group" style="font-size:42px;color:white"></i>
                         </div>
-                        <button class="search-btn">Search</button>
-                    </section>
+                        <div class="column">
+                            <span>450</span>
+                            <span>Companies</span>
+                        </div>
+                    </article>
+                    <article class="globe">
+                        <div>
+                            <i class="fa fa-file-code-o" style="font-size:42px;color:white"></i>
+                        </div>
+                        <div class="column">
+                            <span>80,000</span>
+                            <span>Active Employees</span>
+                        </div>
+                    </article>
                 </section>
 
+                <div>
+                    <button class="find-btn">Find a Job</button>
+                    <button class="candidate-btn">Find a Candidate</button>
+                </div>
+                <section class="search-box">
+                    <section>
+                        <div class="input-box">
+                            <input type="text" class="input" placeholder="eg.Graphic Designer">
+                        </div>
+                    </section>
+                    <div>
+                        <select>
+                            <option>Category</option>
+                            <option>Full time</option>
+                            <option>Part Time</option>
+                            <option>Freelance</option>
+                            <option>Internship</option>
+                            <option>Temporary</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Location">
+                    </div>
+                    <button class="search-btn">Search</button>
+                </section>
             </section>
 
-        </article>
-        <!-- position -->
-        <article class="position">
-            <div class="position-box">
-                <h4>Website&<br>Software</h4>
-                <i class="fa fa-group" style="font-size:36px;color:#206dfb;"></i>
-                <span>142 Position</span>
+        </section>
+
+    </article>
+    <!-- position -->
+    <article class="position">
+        <div class="position-box">
+            <h4>Website&<br>Software</h4>
+            <i class="fa fa-group" style="font-size:36px;color:#206dfb;"></i>
+            <span>142 Position</span>
+        </div>
+        <div class="position-box-orange">
+            <h4>Education&<br>Training</h4>
+            <i class="fa fa-graduation-cap" style="font-size:36px;color:white;"></i>
+            <span>142 Position</span>
+        </div>
+        <div class="position-box">
+            <h4>Graphic & UI/UX<br>Design</h4>
+            <i class="fa fa-group" style="font-size:36px;color:#206dfb;"></i>
+            <span>142 Position</span>
+        </div>
+        <div class="position-box">
+            <h4>Accounting &<br>Finance</h4>
+            <i class="fa fa-calculator" style="font-size:36px;color:#206dfb;"></i>
+            <span>142 Position</span>
+        </div>
+        <div class="position-box">
+            <h4>Restaurant&<br>Food</h4>
+            <i class="fa fa-cutlery" style="font-size:36px;color:#206dfb;"></i>
+            <span>142 Position</span>
+        </div>
+        <div class="position-box">
+            <h4>Health<br>Hospital</h4>
+            <i class="fa fa-stethoscope" style="font-size:36px;color:#206dfb;"></i>
+            <span>142 Position</span>
+        </div>
+    </article>
+    <!-- Top category -->
+    <article class="top-category">
+        <section class="text-align">
+            <span>JOB CATEGORIES</span>
+            <p>Top Categories</p>
+        </section>
+        <section class="open-position">
+            <div class="category-open-position">
+                <h4>Web Development</h4>
+                <p><span>453</span> Open Position</p>
             </div>
-            <div class="position-box-orange">
-                <h4>Education&<br>Training</h4>
-                <i class="fa fa-graduation-cap" style="font-size:36px;color:white;"></i>
-                <span>142 Position</span>
+            <div class="category-open-position">
+                <h4>Education & Training</h4>
+                <p><span>453</span> Open Position</p>
             </div>
-            <div class="position-box">
-                <h4>Graphic & UI/UX<br>Design</h4>
-                <i class="fa fa-group" style="font-size:36px;color:#206dfb;"></i>
-                <span>142 Position</span>
+            <div class="category-open-position">
+                <h4>PHP Programming</h4>
+                <p><span>453</span> Open Position</p>
             </div>
-            <div class="position-box">
-                <h4>Accounting &<br>Finance</h4>
-                <i class="fa fa-calculator" style="font-size:36px;color:#206dfb;"></i>
-                <span>142 Position</span>
+            <div class="category-open-position">
+                <h4>Web Designer</h4>
+                <p><span>453</span> Open Position</p>
             </div>
-            <div class="position-box">
-                <h4>Restaurant&<br>Food</h4>
-                <i class="fa fa-cutlery" style="font-size:36px;color:#206dfb;"></i>
-                <span>142 Position</span>
+            <div class="category-open-position">
+                <h4>Graphic Designer</h4>
+                <p><span>453</span> Open Position</p>
             </div>
-            <div class="position-box">
-                <h4>Health<br>Hospital</h4>
-                <i class="fa fa-stethoscope" style="font-size:36px;color:#206dfb;"></i>
-                <span>142 Position</span>
+            <div class="category-open-position">
+                <h4>English</h4>
+                <p><span>453</span> Open Position</p>
             </div>
-        </article>
-        <!-- Top category -->
-        <article class="top-category">
-            <section class="text-align">
-                <span>JOB CATEGORIES</span>
-                <p>Top Categories</p>
+            <div class="category-open-position">
+                <h4>Project Management</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Customer Service</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Multimedia</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Process Mangement</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Web Development</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Web Development</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Web Development</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Web Development</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Web Development</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+            <div class="category-open-position">
+                <h4>Web Development</h4>
+                <p><span>453</span> Open Position</p>
+            </div>
+        </section>
+    </article>
+    <!-- banner -->
+    <article class="banner">
+        <section class="banner-class">
+            <div class="banner-txt">
+                <i class="fa fa-file-code-o" style="font-size:36px"></i>
+                <span>Search Millions of Jobs</span>
+                <p>A small river named Duden flows by their place and supplies.</p>
+            </div>
+            <div class="banner-txt">
+                <i class="fa fa-group" style="font-size:36px"></i>
+                <span>Easy To Manage Jobs</span>
+                <p>A small river named Duden flows by their place and supplies.</p>
+            </div>
+            <div class="banner-txt">
+                <i class="fa fa-graduation-cap" style="font-size:36px"></i>
+                <span>Top Careers</span>
+                <p>A small river named Duden flows by their place and supplies.</p>
+            </div>
+            <div class="banner-txt">
+                <i class="fa fa-group" style="font-size:36px"></i>
+                <span>Search Expert Candidates</span>
+                <p>A small river named Duden flows by their place and supplies.</p>
+            </div>
+        </section>
+    </article>
+    <!-- recently added job -->
+    <article class="recent">
+        <section class="recent-first">
+            <div>
+                <p>RECENTLY ADDED JOBS</p>
+                <span>Featured Jobs Posts For This Week</span>
+            </div>
+            <section class="recent-inner-con">
+                <div>
+                    <span>PARTIME</span>
+                    <p>Frontend Development</p>
+                    <a><i class='fas fa-layer-group'></i>FACEBOOK,INC., WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
             </section>
-            <section class="open-position">
-                <div class="category-open-position">
-                    <h4>Web Development</h4>
-                    <p><span>453</span> Open Position</p>
+            <section class="recent-inner-con">
+                <div>
+                    <span>FULLTIME</span>
+                    <p>Full Stack Developer</p>
+                    <a><i class='fas fa-layer-group'></i>GOOGLE,INC., WESTERN CITY,UK</a>
                 </div>
-                <div class="category-open-position">
-                    <h4>Education & Training</h4>
-                    <p><span>453</span> Open Position</p>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
                 </div>
-                <div class="category-open-position">
-                    <h4>PHP Programming</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Web Designer</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Graphic Designer</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>English</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Project Management</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Customer Service</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Multimedia</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Process Mangement</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Web Development</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Web Development</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Web Development</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Web Development</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Web Development</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
-                <div class="category-open-position">
-                    <h4>Web Development</h4>
-                    <p><span>453</span> Open Position</p>
-                </div>
+
             </section>
-        </article>
-    </body>
+            <section class="recent-inner-con">
+                <div>
+                    <span>FREELANCE</span>
+                    <p>Open Source Interactive Developer</p>
+                    <a><i class='fas fa-layer-group'></i>NEWYORK TIMES WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
+            </section>
+            <section class="recent-inner-con">
+                <div>
+                    <span>PARTIME</span>
+                    <p>Frontend Development</p>
+                    <a><i class='fas fa-layer-group'></i>FACEBOOK,INC., WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
+            </section>
+            <section class="recent-inner-con">
+                <div>
+                    <span>TEMPORARY</span>
+                    <p>Open Source Interactive Developer</p>
+                    <a><i class='fas fa-layer-group'></i>NEWYORK TIMES WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
+            </section>
+            <section class="recent-inner-con">
+                <div>
+                    <span>FULLTIME</span>
+                    <p>Full Stack Developer</p>
+                    <a><i class='fas fa-layer-group'></i>GOOGLE,INC., WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
+            </section>
+            <section class="recent-inner-con">
+                <div>
+                    <span>FREELANCE</span>
+                    <p>Open Source Interactive Developer</p>
+                    <a><i class='fas fa-layer-group'></i>NEWYORK TIMES WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
+            </section>
+            <section class="recent-inner-con">
+                <div>
+                    <span>INTERNSHIP</span>
+                    <p>Frontend Development</p>
+                    <a><i class='fas fa-layer-group'></i>FACEBOOK,INC., WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
+            </section>
+            <section class="recent-inner-con">
+                <div>
+                    <span>TEMPORARY</span>
+                    <p>Open Source Interactive Developer</p>
+                    <a><i class='fas fa-layer-group'></i>NEWYORK TIMES WESTERN CITY,UK</a>
+                </div>
+                <div class="heart-hover">
+                    <div class="heart">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <button class="recent-apply">Apply Job</button>
+                </div>
+
+            </section>
+
+        </section>
+        <section>
+            <p>Top Recruitments</p>
+            <div>
+                <img src="./image/company-1.jpg.webp" height="250px" width="250px">
+                <h5>Company Company</h5>
+                <p><span class="recent-recrut-open">420</span> Open Position</p>
+            </div>
+            <div>
+                <img src="./image/company-2.jpg.webp" height="250px" width="250px">
+                <h5>Facebook Company</h5>
+                <p><span class="recent-recrut-open">420</span> Open Position</p>
+            </div>
+            <div>
+                <img src="./image/company-3.jpg.webp" height="250px" width="250px">
+                <h5>IT Programming INC</h5>
+                <p><span class="recent-recrut-open">420</span> Open Position</p>
+            </div>
+            <div>
+                <img src="./image/company-4.jpg.webp" height="250px" width="250px">
+                <h5>IT Programming INC</h5>
+                <p><span class="recent-recrut-open">420</span> Open Position</p>
+            </div>
+
+        </section>
+
+    </article>
+    <!-- our blog -->
+    <article class="blog-main">
+        <section class="blog-h">
+            <p>OUR BLOG</p>
+            <span>Recent Blog</span>
+        </section>
+        <section class="blog">
+            <div class="blog-box">
+                <div>
+                    <img src="./image/image_1.jpg.webp" width="250px" height="250px">
+                </div>
+                
+                <div>
+                    <span>August 26, 2018</span>
+                    <span>ADMIN</span>
+                </div>
+                <div>
+                    <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                </div>
+                
+            </div>
+        
+            <div class="blog-box">
+                <div>
+                    <img src="./image/image_2.jpg.webp" width="250px" height="250px">
+                </div>
+                
+                <div>
+                    <span>August 26, 2018</span>
+                    <span>ADMIN</span>
+                </div>
+                <div>
+                    <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div>
+                    <img src="./image/image_3.jpg.webp" width="250px" height="250px">
+                </div>
+                
+                <div>
+                    <span>August 26, 2018</span>
+                    <span>ADMIN</span>
+                </div>
+                <div>
+                    <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                </div>
+            </div>
+            <div class="blog-box">
+            <div>
+                <img src="./image/image_4.jpg.webp" width="250px" height="250px">
+            </div>
+            
+            <div>
+                <span>August 26, 2018</span>
+                <span>ADMIN</span>
+            </div>
+            <div>
+                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+            </div>
+            </div>
+        </section>
+    </article>
+    <!-- subcribe -->
+    <article class="subcribe">
+        <div class="sub-txt">
+            <p>Subcribe to our Newsletter</p>
+            <span>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there</span>
+            <p>live the blind texts.Separated they live in</p>
+           <a><input type="text" placeholder="Enter Email Address" class="sub-input"><button class="sub-input-btn">Subscribe</button></a>   
+        </div>
+
+    </article>
+    <!-- footer -->
+    <footer class="footer">
+        <section>
+            <h6>Skillhunt Jobboard</h6>
+            <p>Far far away, behind the word<br> mountains, far from the <br>countries Vokalia and <br>Consonantia, there live the <br>blind texts.</p>
+            <div>
+                <i class="fa fa-twitter" style="font-size:20px"></i>
+                <i class="fa fa-facebook-f" style="font-size:20px"></i>
+                <i class="fa fa-instagram" style="font-size:20px"></i>
+            </div>
+        </section>
+        <section>
+            <h6>Employers</h6>
+            <P>Browse candidates</P>
+            <P>Post a Job</P>
+            <P>Employer Listing</P>
+            <P>Resume Page</P>
+            <P>Dashboard</P>
+            <P>Job Packages</P>
+        </section>
+        <section>
+            <h6>Candidate</h6>
+            <P>Browse Jobs</P>
+            <P>Summit Resume</P>
+            <P>Dashboard</P>
+            <P>Browse Categories</P>
+            <P>My Bookmarks</P>
+            <P>Candidate Listing</P>
+        </section>
+        <section>
+            <h6>My Account</h6>
+            <P>Sign in</P>
+            <P>Create Account</P>
+            <P>Checkout</P>  
+        </section>
+        <section>
+            <h6>Have a Questions?</h6>
+            <div class="question-row">
+                <i class="fa fa-map-marker" style="font-size:24px"></i>
+                <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div class="question-row">
+                <i class="fa fa-phone" style="font-size:24px"></i>
+                <p>+2 392 3929 210</p>
+            </div>
+            <div class="question-row">
+                <i class="fa fa-envelope" style="font-size:24px"></i>
+                <p>info@yourdomain.com</p>
+            </div>
+        </section>
+    </footer>
+</body>
 
 </html>
