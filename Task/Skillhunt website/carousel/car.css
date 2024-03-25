@@ -1,6 +1,6 @@
 .happy-clients-card {
-    height: 170px;
-    width: 280px;
+    height: 270px;
+    width: 350px;
     background-color: white;
     padding: 40px;
     color: lightgray;
@@ -19,4 +19,14 @@
 
 .card-person-name {
     color: black;
+}
+
+.btn {
+    width: 30px;
+}
+.carousel {
+max-width: 1200px;
+width:350px;
+height: 270px;
+margin: auto;
 }
