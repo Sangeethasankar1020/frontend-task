@@ -160,3 +160,12 @@ ul li:hover {
 .text-align {
   text-align: center;
 }
+.category-open-position{
+  border-bottom: 1px solid #fdab44;
+  width: 200px;
+  text-align: center;
+}
+.open-position{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
