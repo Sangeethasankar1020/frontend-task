@@ -1,0 +1,22 @@
+.happy-clients-card {
+    height: 170px;
+    width: 280px;
+    background-color: white;
+    padding: 40px;
+    color: lightgray;
+    box-shadow: 0 0 7px 7px rgb(248, 244, 244);
+}
+
+.person-1 {
+    border-radius: 50%;
+}
+
+.card-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-person-name {
+    color: black;
+}
