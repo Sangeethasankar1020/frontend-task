@@ -318,9 +318,11 @@ ul li:hover {
   font-size: 24px;
   font-weight: 500;
 }
-.right-arrow{
+
+.right-arrow {
   display: none;
 }
+
 .category-row {
   border-bottom: 1px solid #fdab44;
   width: 250px;
@@ -329,17 +331,20 @@ ul li:hover {
   justify-content: center;
   gap: 33px;
 }
-.category-open-position{
+
+.category-open-position {
   display: flex;
   flex-direction: column;
   gap: 18px;
   padding: 18px;
   text-align: center;
 }
-.category-row{
+
+.category-row {
   display: flex;
   align-items: center;
 }
+
 .category-row:hover {
   h4 {
     color: #207dff;
@@ -348,13 +353,16 @@ ul li:hover {
   p {
     color: #000000;
   }
+
   background-color: #f8e5cd
 }
-.category-row:hover{
-  .right-arrow{
+
+.category-row:hover {
+  .right-arrow {
     display: block;
   }
 }
+
 .open-position {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -415,11 +423,12 @@ ul li:hover {
 }
 
 /* recent */
-.recent-heading{
+.recent-heading {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .recent {
   background-color: #f8f9fa;
   display: flex;
@@ -684,4 +693,89 @@ ul li:hover {
 
 .footer-para {
   line-height: 1.8;
+}
+
+/* about click text */
+.about-txt {
+  display: none;
+}
+
+.about-text-absolute {
+  position: absolute;
+  left: 525px;
+  top: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: white;
+  align-items: center;
+}
+.about-text-absolute p {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.about-text-absolute span{
+  font-size: 50px;
+  font-weight: 400;
+}
+.about-txt-row{
+  display: flex;
+  gap: 10px;
+}
+/* about click sec column */
+.about-sec-click-main{
+  display: none;
+}
+.about-sec-click-column{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.about-click-browse{
+  height: 300px;
+  width: 250px;
+  background-color: white;
+}
+.about-click-browse-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}.about-click-browse-txt h6{
+  font-size: 19px;
+  font-weight: 400;
+}
+.about-click-browse-search{
+  padding: 13px;
+  border-radius: 5px;
+  width: 180px;
+  border: 1px solid  #999999;
+}
+.checkbox-row{
+  display: flex;
+  gap: 10px;
+  color: #999999;
+}
+/* previous next btn */
+.previous-nxt-btn-main{
+  display: none;
+}
+.previous-nxt-btn{
+  display: flex;
+  gap: 5px;
+}
+.previous-border{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #b6cffe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #206dfb;
+}
+.previous-one{
+  background-color: #206dfb;
+  color: white;
 }
