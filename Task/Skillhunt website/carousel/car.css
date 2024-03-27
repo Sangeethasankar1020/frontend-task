@@ -1,32 +1,32 @@
 .happy-clients-card {
-    height: 270px;
-    width: 350px;
-    background-color: white;
-    padding: 40px;
-    color: lightgray;
-    box-shadow: 0 0 7px 7px rgb(248, 244, 244);
+  height: 270px;
+  width: 350px;
+  background-color: white;
+  padding: 40px;
+  color: lightgray;
+  box-shadow: 0 0 7px 7px rgb(248, 244, 244);
 }
 
 .person-1 {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .card-row {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .card-person-name {
-    color: black;
+  color: black;
 }
 
 .btn {
-    width: 30px;
+  width: 30px;
 }
 .carousel {
-max-width: 1200px;
-width:350px;
-height: 270px;
-margin: auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 270px;
+  margin: auto;
 }
