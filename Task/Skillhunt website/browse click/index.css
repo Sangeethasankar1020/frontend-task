@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.user-img {
+    background-image: url(../image/bg_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.user-img,
+.user-img-overlay {
+    height: 430px;
+    width: 100%;
+    /* max-width: 1400px;
+  margin: auto; */
+}
+
+.user-img-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, #207dff 0%, #a16ae8 100%);
+    opacity: 0.8;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-logo:hover {
+    color: #000000;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 365px;
+    width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ul li:hover {
+    color: #fdab44;
+}
+.btn-1,
+.btn-2,
+.find-btn {
+    padding: 13px;
+    border: 1px solid transparent;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-1 {
+    color: white;
+    background-color: #207dff;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    color: white;
+    background-color: #fdab44;
+    border-radius: 5px;
+}
+.browse-jobs{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* about click text */
+.about-txt{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.about-text-absolute {
+    position: absolute;
+    left: 525px;
+    top: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: white;
+    align-items: center;
+}
+.about-text-absolute p {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.about-text-absolute span {
+    font-size: 45px;
+    font-weight: 400;
+}
+.about-txt-row {
+    display: flex;
+    gap: 10px;
+}
+/* recent */
+
+.recent {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.recent-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.recent-sub-time {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.recent-inner-con {
+    height: 150px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    gap: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.open-source {
+    display: flex;
+    gap: 15px;
+}
+
+.recent-inner-con span {
+    color: #206dfb;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.recent-inner-con p {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.recent-inner-con a {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.heart {
+    display: none;
+}
+
+.fa-heart {
+    color: white;
+    background-color: #fdab44;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.heart-hover {
+    display: flex;
+    gap: 10px;
+}
+
+.recent-inner-con:hover {
+    .heart {
+        display: block;
+    }
+
+    box-shadow: 0 0 10px 8px #f0ecec;
+}
+
+.recent-apply {
+    padding: 10px;
+    background-color: #207dff;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+/* about click sec column */
+.about-sec-click-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-click-browse {
+    height: 300px;
+    width: 250px;
+    background-color: white;
+}
+
+.about-click-browse-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.about-click-browse-txt h6 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.about-click-browse-search {
+    padding: 13px;
+    border-radius: 5px;
+    width: 180px;
+    border: 1px solid #999999;
+}
+
+.checkbox-row {
+    display: flex;
+    gap: 10px;
+    color: #999999;
+}
+
+/* previous next btn */
+.previous-nxt-btn-main{
+    text-align: center;
+}
+.previous-nxt-btn {
+    display: flex;
+    gap: 5px;
+}
+
+.previous-border {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #b6cffe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #206dfb;
+}
+
+.previous-one {
+    background-color: #206dfb;
+    color: white;
+}
+/* subscribe */
+.subcribe {
+    margin-top: 100px;
+    height: 350px;
+    width: 100%;
+    background-color: #207dff;
+}
+
+.sub-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    color: white;
+    gap: 15px;
+}
+
+.sub-txt p {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.sub-txt span {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sub-txt a {
+    font-size: 18px;
+}
+
+.sub-input,
+.sub-input-btn {
+    padding: 20px;
+    border: none;
+}
+
+.sub-input {
+    width: 470px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.sub-input-btn {
+    background-color: #fdab44;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-sub h6 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-sub p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram {
+    color: #207dff;
+    background-color: rgb(240, 233, 233);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.question-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-para {
+    line-height: 1.8;
+}
