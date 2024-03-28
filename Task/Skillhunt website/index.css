@@ -44,14 +44,14 @@ body {
 .nav-bar {
   position: absolute;
   top: 20px;
-  left: 50px;
   background: transparent;
   display: flex;
   align-items: center;
-  gap: 480px;
-  /* width: 100%;
-  max-width: 1200px;
-  margin: auto; */
+  gap: 384px;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: auto;
+  justify-content: center;
 }
 
 .home,
@@ -100,12 +100,12 @@ ul li:hover {
 
 .home-txt {
   position: absolute;
-  left: 205px;
+  /* left: 100px; */
   top: 180px;
   text-align: center;
-  /* width: 100%;
-  max-width: 1200px;
-  margin: auto; */
+  width: 100%;
+  /* max-width: 1443px; */
+  margin: auto;
 }
 
 .home-txt p {
@@ -170,8 +170,7 @@ ul li:hover {
 .candidate-btn {
   font-size: 16px;
   font-weight: 400;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px;
 }
 
 .candidate-btn:hover {
@@ -220,9 +219,13 @@ ul li:hover {
 
 .position {
   display: flex;
+  justify-content: center;
   position: absolute;
   top: 710px;
-  left: 160px;
+  /* left: 120px; */
+  /* max-width: 1200px; */
+  width: 100%;
+  margin: auto;
 }
 
 .position-box,
@@ -255,7 +258,7 @@ ul li:hover {
 
 .position-box:hover,
 .position-box-orange:hover {
-  span {
+  .fa {
     color: white;
   }
 }
@@ -282,6 +285,7 @@ ul li:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .top-category {
@@ -354,7 +358,7 @@ ul li:hover {
     color: #000000;
   }
 
-  background-color: #f8e5cd
+  background-color: #f8e5cd;
 }
 
 .category-row:hover {
@@ -399,9 +403,7 @@ ul li:hover {
   display: flex;
   padding: 90px;
   gap: 25px;
-  /* width: 100%;
-  max-width: 1200px;
-  margin: auto; */
+  justify-content: center;
 }
 
 .banner-txt {
@@ -692,4 +694,3 @@ ul li:hover {
 .footer-para {
   line-height: 1.8;
 }
-
