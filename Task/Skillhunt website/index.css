@@ -333,22 +333,16 @@ ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 33px;
+  gap: 25px;
 }
 
 .category-open-position {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 15px;
   padding: 18px;
   text-align: center;
 }
-
-.category-row {
-  display: flex;
-  align-items: center;
-}
-
 .category-row:hover {
   h4 {
     color: #207dff;
@@ -357,7 +351,6 @@ ul li:hover {
   p {
     color: #000000;
   }
-
   background-color: #f8e5cd;
 }
 
