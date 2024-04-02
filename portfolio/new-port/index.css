@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    background-color: black;
+}
+/* profile */
+.main-profile{
+    margin-top: 50px;
+}
+.profile{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.profile-img img{
+    border-radius: 50%;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile-text h4,.profile-text h6,.profile-text p,.profile-text h5,.fa-envelope,.fa-linkedin,.fa-github,.about-heading{
+    color: #d2d2d2;
+}
+.profile-text h4{
+    font-size: 35px;
+}
+.profile-text h6{
+    font-size:22px;
+}
+.profile-text p{
+font-size: 18px;
+line-height: 1.5;
+}
+.profile-text h5{
+    font-size: 23px;
+}
+.position-name{
+    color: rgb(90, 15, 90);
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.center-line{
+    color: rgb(90, 15, 90);
+    font-size: 30px;
+}
+.contact-icon a{
+    font-size: 23px;
+}
+/* about */
+.about-heading{
+    align-items:center ;
+}
+.line{
+    color: rgb(90, 15, 90);
+    font-size: 30px;
+}
+
