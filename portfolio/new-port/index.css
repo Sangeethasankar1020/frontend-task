@@ -5,11 +5,13 @@
     font-family: roboto, sans-serif;
     background-color: black;
 }
+
 /* profile */
-.main-profile{
+.main-profile {
     margin-top: 50px;
 }
-.profile{
+
+.profile {
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -18,67 +20,100 @@
     max-width: 1200px;
     margin: auto;
 }
-.profile-img img{
+
+.profile-img img {
     border-radius: 50%;
 }
-.profile-text{
+
+.profile-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.profile-text h4,.profile-text h6,.profile-text p,.profile-text h5,.fa-github,.about-heading{
+
+.profile-text h4,
+.profile-text h6,
+.profile-text p,
+.profile-text h5,
+.fa-github,
+.about-heading {
     color: #d2d2d2;
 }
-.profile-text h4{
+
+.profile-text h4 {
     font-size: 35px;
 }
-.profile-text h6{
-    font-size:22px;
+
+.profile-text h6 {
+    font-size: 22px;
 }
-.profile-text p{
-font-size: 18px;
-line-height: 1.5;
+
+.profile-text p {
+    font-size: 18px;
+    line-height: 1.5;
 }
-.profile-text h5{
+
+.profile-text h5 {
     font-size: 23px;
 }
 .position-name{
-    color: turquoise;
-    text-shadow: 2px 2px 4px #8A847A;
+    background: linear-gradient(to right, red, orange, violet);
+    -webkit-background-clip: text;
+    color: transparent;
 }
-.contact-icon{
+.contact-icon {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.fa-envelope{
-    color: tomato;
+
+.fa-envelope {
+    color: cornsilk;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     color: steelblue;
     text-shadow: 1px 1px 1px rgb(177 193 207);
 }
-.center-line{
-    color: brown;
-    font-size: 30px;
-    box-shadow: 2px 2px 2px 2px rgba(243, 176, 176, 0.1);
-}
-.contact-icon a{
-    font-size: 23px;
-}
-/* about */
-.about-me{
-    margin-top: 100px;
-}
-.about-heading{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items:center ;
-    font-size: 35px;
-}
-.line{
-    color: brown;
+
+.center-line {
+    color: rgb(132, 77, 231);
     font-size: 30px;
 }
 
+.contact-icon a {
+    font-size: 23px;
+}
+
+/* about */
+.about-me {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-heading {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.about-box {
+    height: 250px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid rgb(132, 77, 231);
+}
+.about-heading::before {
+    content: "";
+    display: inline-block;
+    height: 1.5px;
+    width: 88px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+}
