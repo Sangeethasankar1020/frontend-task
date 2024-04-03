@@ -1149,3 +1149,42 @@ ul li:hover {
     height: 295px;
   }
 }
+
+/* animation */
+.position-box ,.position-box-orange,.home-txt,.text-align{
+  position: relative;
+  overflow: hidden;
+  animation: slideIn 1s forwards;
+  opacity: 0;
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* right arrow */
+.right-arrow {
+  position: relative;
+  overflow: hidden;
+}
+
+.fa.fa-angle-right:hover {
+  position: absolute;
+  animation: slideRight .1s ease-in;
+}
+
+@keyframes slideRight {
+  from {
+    left: -50px;
+  }
+
+  to {
+    left: 100%;
+  }
+}

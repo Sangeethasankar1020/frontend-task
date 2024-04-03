@@ -26,7 +26,7 @@
     flex-direction: column;
     gap: 10px;
 }
-.profile-text h4,.profile-text h6,.profile-text p,.profile-text h5,.fa-envelope,.fa-linkedin,.fa-github,.about-heading{
+.profile-text h4,.profile-text h6,.profile-text p,.profile-text h5,.fa-github,.about-heading{
     color: #d2d2d2;
 }
 .profile-text h4{
@@ -43,26 +43,42 @@ line-height: 1.5;
     font-size: 23px;
 }
 .position-name{
-    color: rgb(90, 15, 90);
+    color: turquoise;
+    text-shadow: 2px 2px 4px #8A847A;
 }
 .contact-icon{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+.fa-envelope{
+    color: tomato;
+}
+.fa-linkedin{
+    color: steelblue;
+    text-shadow: 1px 1px 1px rgb(177 193 207);
+}
 .center-line{
-    color: rgb(90, 15, 90);
+    color: brown;
     font-size: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(243, 176, 176, 0.1);
 }
 .contact-icon a{
     font-size: 23px;
 }
 /* about */
+.about-me{
+    margin-top: 100px;
+}
 .about-heading{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
     align-items:center ;
+    font-size: 35px;
 }
 .line{
-    color: rgb(90, 15, 90);
+    color: brown;
     font-size: 30px;
 }
 
