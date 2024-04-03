@@ -709,26 +709,25 @@ ul li:hover {
   display: none;
 }
 /* slide from bottom */
-.right-arrow{
-  animation: myani 2s ease-in;
+.right-arrow {
+  animation: myani 0.5s ease-in;
 }
-@keyframes myani{
-  from{
+@keyframes myani {
+  from {
     left: 0px;
   }
-  to{
+  to {
     left: 20px;
   }
 }
 /* responsive */
-@media(max-width:1216px) {
+@media (max-width: 1216px) {
   .nav-bar {
     gap: 170px;
   }
 }
 
-@media(max-width:1110px) {
-
+@media (max-width: 1110px) {
   .footer,
   .open-position {
     flex-wrap: wrap;
@@ -812,7 +811,7 @@ ul li:hover {
   }
 }
 
-@media(max-width:750px) {
+@media (max-width: 750px) {
   .home-icon {
     font-size: 60px;
   }
@@ -880,7 +879,7 @@ ul li:hover {
   }
 }
 
-@media(max-width:650px) {
+@media (max-width: 650px) {
   .home-icon {
     font-size: 50px;
   }
@@ -954,7 +953,7 @@ ul li:hover {
   }
 }
 
-@media(max-width:580px) {
+@media (max-width: 580px) {
   .home-icon {
     font-size: 45px;
   }
@@ -1084,8 +1083,7 @@ ul li:hover {
   }
 }
 
-@media(max-width:360px) {
-
+@media (max-width: 360px) {
   .user-img,
   .user-img-overlay {
     height: 750px;
@@ -1121,7 +1119,7 @@ ul li:hover {
   }
 }
 
-@media(max-width:320px) {
+@media (max-width: 320px) {
   .category-open-position h4 {
     font-size: 18px;
   }
@@ -1151,7 +1149,10 @@ ul li:hover {
 }
 
 /* animation */
-.position-box ,.position-box-orange,.home-txt,.text-align{
+.position-box,
+.position-box-orange,
+.home-txt,
+.text-align {
   position: relative;
   overflow: hidden;
   animation: slideIn 1s forwards;
@@ -1176,7 +1177,7 @@ ul li:hover {
 
 .fa.fa-angle-right:hover {
   position: absolute;
-  animation: slideRight .1s ease-in;
+  animation: slideRight 0.05s ease-in;
 }
 
 @keyframes slideRight {
