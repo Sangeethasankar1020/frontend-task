@@ -6,6 +6,10 @@
     background-color: black;
 }
 
+body {
+    margin-bottom: 50px;
+}
+
 /* profile */
 .main-profile {
     margin-top: 50px;
@@ -36,7 +40,8 @@
 .profile-text p,
 .profile-text h5,
 .fa-github,
-.about-heading {
+.about-heading,
+.about-txt p {
     color: #d2d2d2;
 }
 
@@ -56,11 +61,13 @@
 .profile-text h5 {
     font-size: 23px;
 }
-.position-name{
+
+.position-name {
     background: linear-gradient(to right, red, orange, violet);
     -webkit-background-clip: text;
     color: transparent;
 }
+
 .contact-icon {
     display: flex;
     align-items: center;
@@ -100,20 +107,31 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 50px;
 }
+
 .about-box {
     height: 250px;
-    width: 400px;
+    width: 450px;
     border-radius: 5px;
     border: 2px solid rgb(132, 77, 231);
 }
-.about-heading::before {
+
+.about-heading::before,
+.about-heading::after {
     content: "";
     display: inline-block;
     height: 1.5px;
-    width: 88px;
+    width: 70px;
     margin-right: 10px;
     margin-bottom: 12px;
     background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+}
+
+.about-txt {
+    padding: 19px;
+}
+
+.about-txt p {
+    line-height: 1.6;
 }
