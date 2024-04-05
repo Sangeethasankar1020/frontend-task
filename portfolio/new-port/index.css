@@ -40,16 +40,17 @@ body {
 .profile-text p,
 .profile-text h5,
 .fa-github,
-.about-heading,
-.about-txt p {
+.about-txt p,
+.skill-hd {
     color: #d2d2d2;
 }
 
 .profile-text h4 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
-.profile-text h6 {
+.profile-text h6,
+.skill-hd {
     font-size: 22px;
 }
 
@@ -59,13 +60,14 @@ body {
 }
 
 .profile-text h5 {
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .position-name {
     background: linear-gradient(to right, red, orange, violet);
     -webkit-background-clip: text;
     color: transparent;
+    font-size: 25px;
 }
 
 .contact-icon {
@@ -75,7 +77,7 @@ body {
 }
 
 .fa-envelope {
-    color: cornsilk;
+    color: tomato;
 }
 
 .fa-linkedin {
@@ -84,7 +86,7 @@ body {
 }
 
 .center-line {
-    color: rgb(132, 77, 231);
+    color: rgb(152 121 210);
     font-size: 30px;
 }
 
@@ -93,7 +95,9 @@ body {
 }
 
 /* about */
-.about-me {
+.about-me,
+.skills,
+.projects,.contact-me{
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -102,36 +106,195 @@ body {
     align-items: center;
 }
 
-.about-heading {
+.about-heading,
+.skills-heading,
+.project-heading ,.contact-heading {
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
+    color: ghostwhite;
 }
 
 .about-box {
-    height: 250px;
-    width: 450px;
-    border-radius: 5px;
-    border: 2px solid rgb(132, 77, 231);
+    height: 350px;
+    width: 560px;
+    /* background: rgb(23, 23, 33); */
+    border: 0.1px solid rgb(132, 77, 231);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 20px;
+    /* margin-top: 20px; */
 }
 
 .about-heading::before,
-.about-heading::after {
+.about-heading::after,
+.skills-heading::before,
+.skills-heading::after,
+.project-heading::before,
+.project-heading::after,.contact-heading::before,.contact-heading::after {
     content: "";
     display: inline-block;
     height: 1.5px;
-    width: 70px;
-    margin-right: 10px;
-    margin-bottom: 12px;
+    width: 50px;
+    margin-right: -4px;
+    margin-bottom: -2px;
     background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
 }
 
 .about-txt {
-    padding: 19px;
+    padding: 26px;
+    margin-top: 15px;
 }
 
 .about-txt p {
     line-height: 1.6;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.resume-btn {
+    padding: 12px;
+    width: 150px;
+    border: 1px solid rgb(132, 77, 231);
+    color: #d2d2d2;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    /* background: rgb(23, 23, 33); */
+}
+
+.resume-btn:hover {
+    background-color: #8A2BE2;
+}
+
+/* skill */
+.skill-box-row {
+    display: flex;
+    gap: 40px;
+}
+
+.skill-main-box,
+.skill-main-box-others {
+    width: 400px;
+    /* background: rgb(23, 23, 33); */
+    border: 0.1px solid rgb(132, 77, 231);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 20px;
+}
+
+.skill-main-box {
+    height: 490px;
+}
+
+.skill-main-box-others {
+    height: 300px;
+}
+
+.skill-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-child,
+.skill-child-js,
+.skill-child-mq {
+    height: 50px;
+    color: rgba(243, 244, 245, 0.5);
+    border: 1px solid rgba(243, 244, 245, 0.5);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.skill-child {
+    width: 115px;
+}
+
+.skill-child-js {
+    width: 160px;
+}
+
+.skill-child-mq {
+    width: 170px;
+}
+
+/* projects */
+.project-box {
+    height: 400px;
+    width: 500px;
+    border: 0.1px solid rgb(132, 77, 231);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.project-img {
+    position: absolute;
+    left: -117px;
+    top: 13%;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.project-hd {
+    color: #d2d2d2;
+    margin-left: 150px;
+    margin-top: 70px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.project-text h6 {
+    color: #d2d2d2;
+    font-size: 17px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.project-text p {
+    color: #d2d2d2;
+    margin-left: 150px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.code-btn,
+.live-demo-btn {
+    height: 40px;
+    border: 1px solid #8A2BE2;
+    color: #d2d2d2;
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.code-btn {
+    width: 100px;
+}
+
+.live-demo-btn {
+    width: 140px;
+}
+
+.project-btn {
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
 }
