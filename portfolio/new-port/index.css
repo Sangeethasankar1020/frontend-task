@@ -79,10 +79,13 @@ body {
 .fa-envelope {
     color: tomato;
 }
-
+.contact-icon a{
+    text-decoration: none;
+}
 .fa-linkedin {
     color: steelblue;
     text-shadow: 1px 1px 1px rgb(177 193 207);
+   
 }
 
 .center-line {
