@@ -1,0 +1,49 @@
+.carousel {
+    display: flex;
+    overflow-x: hidden;
+    width: 280px;
+    height: 170px;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.happy-clients-card {
+    flex: 0 0 280px;
+    background-color: white;
+    padding: 40px;
+    color: lightgray;
+    box-shadow: 0 0 7px 7px rgb(248, 244, 244);
+    text-align: center;
+}
+
+.card-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.person-1 {
+    border-radius: 50%;
+}
+
+.card-person-name {
+    color: black;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

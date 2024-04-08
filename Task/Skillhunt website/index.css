@@ -64,19 +64,21 @@ body {
   font-size: 70px;
 }
 
-ul {
+ .navigation ul {
   list-style-type: none;
 }
 
-ul li {
+.navigation ul li {
   display: inline-block;
   padding: 20px;
   color: white;
   font-size: 16px;
   font-weight: 400;
 }
-
-ul li:hover {
+.navigation ul a{
+  text-decoration: none;
+}
+.navigation ul li:hover {
   color: #fdab44;
 }
 
@@ -704,9 +706,58 @@ ul li:hover {
 .footer-para {
   line-height: 1.8;
 }
+/* scroll nav bar sticky  */
+.sticky {
+  .navigation ul li{
+    color: black;
+  }
+  .nav-logo{
+    color: #000000;
+  }
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: black;
 
+}
+/* menu hover */
 .menu {
   display: none;
+}
+.menu-navigation {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menu-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+}
+
+.menu-navigation ul li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-navigation ul li:hover {
+  background-color: #ddd;
+}
+
+.menu-navigation ul  a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu:hover .menu-navigation {
+  display: block;
 }
 /* slide from bottom */
 .right-arrow {
@@ -718,6 +769,49 @@ ul li:hover {
   }
   to {
     left: 20px;
+  }
+}
+/* animation */
+.position-box,
+.position-box-orange,
+.home-txt,
+.text-align {
+  position: relative;
+  overflow: hidden;
+  animation: slideIn 1s forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* right arrow */
+.right-arrow {
+  position: relative;
+  overflow: hidden;
+}
+
+.fa.fa-angle-right:hover {
+  position: absolute;
+  animation: slideRight 0.05s ease-in;
+}
+
+@keyframes slideRight {
+  from {
+    left: -50px;
+  }
+
+  to {
+    left: 100%;
   }
 }
 /* responsive */
@@ -1148,44 +1242,3 @@ ul li:hover {
   }
 }
 
-/* animation */
-.position-box,
-.position-box-orange,
-.home-txt,
-.text-align {
-  position: relative;
-  overflow: hidden;
-  animation: slideIn 1s forwards;
-  opacity: 0;
-}
-@keyframes slideIn {
-  from {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-/* right arrow */
-.right-arrow {
-  position: relative;
-  overflow: hidden;
-}
-
-.fa.fa-angle-right:hover {
-  position: absolute;
-  animation: slideRight 0.05s ease-in;
-}
-
-@keyframes slideRight {
-  from {
-    left: -50px;
-  }
-
-  to {
-    left: 100%;
-  }
-}
