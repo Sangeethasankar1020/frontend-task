@@ -17,9 +17,10 @@ body {
 
 .profile {
     display: flex;
-    align-items: baseline;
+    /* flex-direction: column; */
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    gap: 60px;
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -32,12 +33,12 @@ body {
 .profile-text {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 14px;
+    align-items: center;
 }
 
 .profile-text h4,
 .profile-text h6,
-.profile-text p,
 .profile-text h5,
 .fa-github,
 .about-txt p,
@@ -53,50 +54,17 @@ body {
 .skill-hd {
     font-size: 22px;
 }
-
-.profile-text p {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
 .profile-text h5 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .position-name {
     background: linear-gradient(to right, red, orange, violet);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 25px;
-}
-
-.contact-icon {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.fa-envelope {
-    color: tomato;
-}
-.contact-icon a{
-    text-decoration: none;
-}
-.fa-linkedin {
-    color: steelblue;
-    text-shadow: 1px 1px 1px rgb(177 193 207);
-   
-}
-
-.center-line {
-    color: rgb(152 121 210);
     font-size: 30px;
 }
-
-.contact-icon a {
-    font-size: 23px;
-}
-
 /* about */
 .about-me,
 .skills,
@@ -147,7 +115,7 @@ body {
 
 .about-txt {
     padding: 26px;
-    margin-top: 15px;
+    margin-top: 24px;
 }
 
 .about-txt p {
@@ -174,6 +142,7 @@ body {
 /* skill */
 .skill-box-row {
     display: flex;
+    flex-direction: column;
     gap: 40px;
 }
 
