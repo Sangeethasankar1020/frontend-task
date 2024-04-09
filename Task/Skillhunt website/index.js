@@ -10,12 +10,6 @@ window.addEventListener("scroll", function () {
   }
 });
 // click input border
-document.addEventListener("DOMContentLoaded", function () {
-    var findBtn = document.querySelector(".find-btn");
-    
-  findBtn.addEventListener("click", function () {
-    findBtn.style.borderColor = "lightgrey";
-  });
-});
+
 // animation from bottom when scroll
 

@@ -248,7 +248,19 @@ body {
   color: lightgray;
   border-radius: 3px;
 }
-
+/* border change */
+.search-box-input,.search-box-location,.sub-input{
+    border: 1px solid lightgrey;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  
+}
+.search-box-input:focus ,.search-box-location:focus,.sub-input:focus{
+  border: 1px solid #141313;
+ 
+  
+}
 .search-btn {
   width: 200px;
   padding: 15px;
@@ -804,7 +816,9 @@ body {
 .menu:hover .menu-navigation {
   display: block;
 }
-/* slide from bottom */
+/* input focus border color change */
+
+/* smove towards right */
 .right-arrow {
   animation: myani 0.5s ease-in;
 }
