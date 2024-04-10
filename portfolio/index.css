@@ -1,0 +1,25 @@
+.wrap{
+    display: inline-flex;
+
+}
+.wrap.dynamic-text{
+    position: relative;
+    margin-left: 10px;
+    top: 0;
+    height: 10px;
+    line-height: 1.5;
+    animation: slide 6s infinite;
+}
+@keyframes slide{
+    100%{
+        top: -10px;
+    }
+}
+.dynamic-text span{
+     position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border: 2px solid aliceblue;
+        animation: typing  1.5s infinite;
+}
