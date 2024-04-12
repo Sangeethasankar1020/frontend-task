@@ -33,3 +33,26 @@ const myArr = [
 ];
 const newArr = myArr.flat();
 console.log(newArr);
+
+// array with looping
+
+var num = [23, 45, 2, 76, 56];
+for (let i = 0; i < num.length; i++) {
+  console.log(num[i], i, "for loop");
+}
+
+for (let data of num) {
+  console.log(data, "for of loop");
+}
+
+for (let items in num) {
+  console.log(num[items], "items"); // it returns index
+}
+
+var age = 17;
+var Ternarydata = age >= 18 ? "eligible" : "not eligible";
+console.log(Ternarydata, "Ternarydata");
+
+var a = -0;
+var data = a >= 0 ? a == 0 ? "the value is 0"  : "the value is +ve" : "the value is -ve";
+console.log(data, "data");
