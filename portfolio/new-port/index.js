@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > 300) {
-      // Adjust the scroll position as needed
       upArrow.classList.add("show");
     } else {
       upArrow.classList.remove("show");
     }
   });
 });
+
