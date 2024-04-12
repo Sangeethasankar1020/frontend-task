@@ -17,7 +17,6 @@ body {
 
 .profile {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     gap: 60px;
@@ -65,10 +64,27 @@ body {
     background: linear-gradient(to right, red, orange, violet);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 30px;
+    font-size: 30px; 
 }
-/* position name animation */
-
+/* position name animation type writing */
+.wrap {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid violet;
+}
+.position-name{
+    display: inline-block;
+    animation: typing 3s steps(30, end) infinite;
+}
+@keyframes typing {
+from {
+    width: 0;
+}
+to {
+    width: 100%;
+}
+}
+                
 /* about */
 .about-me,
 .skills,
@@ -137,11 +153,11 @@ body {
     font-size: 16px;
     font-weight: 600;
     border-radius: 30px;
-    /* background: rgb(23, 23, 33); */
 }
 
 .resume-btn:hover {
-    background-color: #8A2BE2;
+    background: linear-gradient(to right, rgb(132, 77, 231) 0%, #a16ae8 100%);
+    
 }
 
 /* skill */
@@ -154,7 +170,6 @@ body {
 .skill-main-box,
 .skill-main-box-others {
     width: 400px;
-    /* background: rgb(23, 23, 33); */
     border: 0.1px solid rgb(132, 77, 231);
     box-shadow: 0px 0px 10px rgb(132, 77, 231);
     border-radius: 20px;
