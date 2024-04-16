@@ -3,7 +3,7 @@ window.addEventListener("scroll", function () {
   var navBar = document.querySelector(".nav-bar");
   var scrollPosition = window.scrollY;
 
-  if (scrollPosition > 0) {
+  if (scrollPosition > 1000) {
     navBar.classList.add("sticky");
   } else {
     navBar.classList.remove("sticky");
