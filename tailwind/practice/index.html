@@ -8,18 +8,47 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Document</title>
   </head>
-  <body>
-    <div class="parent ">
-      <div class="child h-52 w-52 bg-orange-500"></div>
+  <body class="bg-slate-400 m-[40px]">
+    <div class="parent">
+      <div class="bg-custom-bg h-52 w-52 bg-orange-500"></div>
       <div class="child h-4 w-4 bg-slate-950"></div>
       <div class="child"></div>
       <div class="child"></div>
       <div class="child"></div>
     </div>
     <!-- group -->
-    
+    <section class="m-[100px] flex flex-row gap-3">
+      <div
+        class="h-[200px] w-[300px] border border-slate-950 rounded-lg bg-violet-500"
+      >
+        <p class="text-center p-[10px] text-white text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque
+          maiores nulla modi, ea sunt.
+        </p>
+      </div>
+      <div
+        class="h-[200px] w-[300px] border border-slate-950 rounded-xl bg-red-500"
+      ></div>
+      <div
+        class="h-[200px] w-[300px] border border-slate-950 rounded-full bg-pink-500"
+      ></div>
+      <div
+        class="h-[200px] w-[300px] border bg-contain"
+        style="background-image: url(./image/img_5.jpg.webp)"
+      >
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
+          quibusdam molestias, necessitatibus illo voluptas expedita?
+        </p>
+      </div>
+      <div
+        class="h-[200px] w-[300px] border border-slate-950 bg-gradient-to-r from-purple-500 to-pink-500"
+      ></div>
+    </section>
+    <!--  -->
     <div class="box bg-teal-300 h-[400px] w-[full] m-28 hover:">
       <div
         class="box-child bg-slate-400 hover:bg-orange-300 hover:animate-spin h-[300px] w-[250px] mx-auto px-4 cursor-pointer"
@@ -47,11 +76,32 @@
         <img src="./image/img_5.jpg.webp" />
       </div>
     </article>
-    <div class="flex flex-col justify-center align-middle">
-      <div class="border border-green-300 rounded-lg max-w-fit p-[10px]">
-        <input type="date" class="input w-[150px]" />
-      </div>
-      <button class="btn bg-gradient-to-bl hover:">year end</button>
+    <div class="flex flex-col justify-center items-center gap-[10px]">
+      <input
+        type="date"
+        class="input w-[150px] border border-green-300 rounded-lg p-[10px]"
+      />
+      <button
+        class="btn border border-sky-600 w-[100px] rounded-md bg-slate-600 hover:bg-green-200"
+      >
+        year end
+      </button>
     </div>
+    <!--  hover underline  -->
+    <div
+      class="text-center bg-blue-600 text-white text-[20px] h-[100px] w-[100%]"
+    >
+      <div>
+        <h6 class="m">Welcome to Ocean Academy !</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          officia nostrum obcaecati fuga similique quis nihil totam? Nobis,
+          deleniti. Odio laudantium voluptatem quidem, pariatur deserunt libero
+          sed blanditiis expedita molestias?
+        </p>
+      </div>
+    </div>
+    <button class="button-primary">submit</button>
+    <script src="./tailwind.config.js"></script>
   </body>
 </html>
