@@ -8,6 +8,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
     <title>Document</title>
   </head>
@@ -20,11 +24,11 @@
       <div class="child"></div>
     </div>
     <!-- group -->
-    <section class="m-[100px] flex flex-row gap-3">
+    <section class="flex flex-row gap-3 max-[1080px]:grid grid-cols-2 max-[890px]:grid-cols-1">
       <div
         class="h-[200px] w-[300px] border border-slate-950 rounded-lg bg-violet-500"
       >
-        <p class="text-center p-[10px] text-white text-xl">
+        <p class="text-center flex justify-center p-[10px] text-white text-xl  max-[1190px]:text-[14px] py-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque
           maiores nulla modi, ea sunt.
         </p>
@@ -39,7 +43,7 @@
         class="h-[200px] w-[300px] border bg-contain"
         style="background-image: url(./image/img_5.jpg.webp)"
       >
-        <p class="text-center">
+        <p class="text-center py-10 text-white">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
           quibusdam molestias, necessitatibus illo voluptas expedita?
         </p>
@@ -53,7 +57,7 @@
       <div
         class="box-child bg-slate-400 hover:bg-orange-300 hover:animate-spin h-[300px] w-[250px] mx-auto px-4 cursor-pointer"
       >
-        <p class="para text-center">
+        <p class="para text-center py-[80px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           autem.
         </p>
@@ -62,7 +66,7 @@
         </div>
       </div>
     </div>
-    <article class="main-box flex flex-row justify-center align-middle gap-2">
+    <article class="main-box flex flex-row justify-center align-middle gap-2"  >
       <div class="h-[250px] w-[300px] hover:scale-x-105">
         <img src="./image/img_5.jpg.webp" />
       </div>
@@ -88,9 +92,7 @@
       </button>
     </div>
     <!--  hover underline  -->
-    <div
-      class="text-center bg-blue-600 text-white text-[20px] h-[100px] w-[100%]"
-    >
+    <div class="text-center bg-blue-600 text-white text-[20px] h-[100px] w-[100%]" data-aos="fade-right">
       <div>
         <h6 class="m">Welcome to Ocean Academy !</h6>
         <p>
@@ -103,5 +105,12 @@
     </div>
     <button class="button-primary">submit</button>
     <script src="./tailwind.config.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true
+      });
+    </script>
   </body>
 </html>
