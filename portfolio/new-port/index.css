@@ -74,7 +74,7 @@ body {
 }
 .position-name{
     display: inline-block;
-    animation: typing 3s steps(30, end) infinite;
+    animation: typing 3s steps(50, end) infinite;
 }
 @keyframes typing {
 from {

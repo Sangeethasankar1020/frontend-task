@@ -8,6 +8,9 @@ body {
   background-color: #f8f9fa;
 }
 /* menu hover */
+.fa-bars{
+  color: white;
+}
 .navigation-menu {
   display: none;
   background-color: white;
@@ -764,7 +767,7 @@ body {
 }
 /* scroll nav bar sticky  */
 .sticky {
-  .navigation ul li{
+  .navigation ul li {
     color: black;
   }
   .nav-logo{
@@ -775,6 +778,7 @@ body {
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   color: black;
+  overflow: hidden;
 
 }
 /* menu hover */
@@ -944,8 +948,13 @@ body {
 
   .menu {
     display: block;
-  }
 
+  }
+.sticky{
+  .fa-bars{
+    color: #000000;
+  }
+}
   .nav-bar {
     justify-content: space-around;
   }
