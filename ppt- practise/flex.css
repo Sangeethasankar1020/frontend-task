@@ -1,0 +1,15 @@
+/* .main{
+  display:grid;
+  grid-template-columns: 200px 210px 200px;
+  grid-template-columns: repeat(2,200px);
+  grid-template-columns: minmax(300px, 500px) 200px 200px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.sub-1,.sub-2,.sub-3{
+  height: 200px;
+  width: 200px;
+} */
+
