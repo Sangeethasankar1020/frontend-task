@@ -10,6 +10,7 @@ let thirdArray = [];
 thirdArray[0] = "Gayu";
 thirdArray[1] = 23;
 console.log(thirdArray, "third Method");
+
 // Array Methods
 
 let cartoon = ["Shinchan", "chotta bheem", "Tian Tian", "Dora"];

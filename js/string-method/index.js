@@ -22,7 +22,7 @@ let fullName = fisrtName.concat(" " + lastName);
 console.log(fullName, "concat");
 
 // trim
-let fruits = "       apple  orange  banana             ";
+let fruits = "       apple  orange  banana          ";
 console.log(fruits.trim(), "trim");
 console.log(fruits.trimStart(), "start trim");
 console.log(fruits.trimEnd(), "end trim");

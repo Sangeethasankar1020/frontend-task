@@ -4,7 +4,6 @@ function myData() {
 }
 myData();
 // with arguments & parameter
-
 function add(a, b) {
   let res = a + b;
   console.log(res, "arguments & parameters");
@@ -12,6 +11,8 @@ function add(a, b) {
 add(2, 4);
 add(3, 4);
 add(29, 4);
+
+
 // function type
 // 1. ananymous fn - without fn name
 var myValue = function () {
