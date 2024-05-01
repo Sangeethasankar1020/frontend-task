@@ -4,8 +4,6 @@ function summit() {
     let userDob =document.getElementById("dob").value
     let email = document.getElementById("email").value
     let MobileNumber = document.getElementById("number").value
-    // let genderMale =document.getElementById("male").checked
-    // let genderFemale =document.getElementById("female").checked
     let Address = document.getElementById("address").value
     let City = document.getElementById("city").value
     let pinCode = document.getElementById("pin-code").value
@@ -17,7 +15,6 @@ function summit() {
     let msgDob=document.getElementById("dob-error")
     let msgEmail = document.getElementById("mail-error")
     let msgNumber =document.getElementById("number-error")
-    // let msgGender =document.getElementById("gender-error")
     let msgAddress = document.getElementById("address-error")
     let msgCity = document.getElementById("city-error")
     let msgPincode =document.getElementById("pincode-error")
@@ -80,12 +77,6 @@ function summit() {
         msgNumber.textContent=""
         console.log(MobileNumber,"Mobile number")
     }
-    // gender
-    // if(!maleChecked&&!femaleChecked){
-    //     msgGender.textContent="Select Gender"
-    //     console.log(genderFemale,genderMale,"gender")
-    // }
-
     // address
     const addressRegex = /^[a-zA-Z0-9\s,'-]*$/;
     if(Address==""){
@@ -146,8 +137,30 @@ function summit() {
     // reset btn
     document.getElementById("myForm").addEventListener("reset", function(event) {
         console.log("Form reset!");
-    });
+    });   
+    // radio gender
+        let maleChecked = document.getElementById("male").checked;
+        let femaleChecked = document.getElementById("female").checked;
+    
+        if (!maleChecked && !femaleChecked) {
+            document.getElementById("gender-error").textContent = "Please select a gender";
+            return false;
+        } else {
+            document.getElementById("gender-error").textContent = "";
+            console.log(maleChecked,femaleChecked,"gender")
+            return true;
+        }
+    // course checkbox
+    let bcaChecked = document.getElementById("bca").checked;
+    let bcomChecked = document.getElementById("bcom").checked;
+    let bscChecked = document.getElementById("bsc").checked;
 
-    // radio btn gender
+    if (!bcaChecked && !bcomChecked && !bscChecked) {
+        document.getElementById("courses-error").textContent = "Please select at least one course";
+        return false;
+    } else {
+        document.getElementById("courses-error").textContent = "";
+        return true;
+    }
     
 }
