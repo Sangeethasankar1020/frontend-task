@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <form onsubmit="summit()">
+    <form id="myForm">
         <h1>STUDENT REGISTRATION FORM</h1>
         <label>FIRST NAME </label> <input type="text" id="first-name">
         <span class="error-message" id="name-error-first"></span><br>
@@ -20,8 +20,8 @@
         <label>LAST NAME </label><input type="text" id="last-name">
         <span class="error-message" id="name-error-last"></span><br>
         <br>
-        <label> DATE OF BIRTH </label><input type="date">
-        <br>
+        <label> DATE OF BIRTH </label><input type="date" id="dob">
+        <span class="error-message" id="dob-error"></span><br>
         <br>
         <label> EMAIL ID </label><input type="text" id="email">
         <span class="error-message" id="mail-error"></span><br>
@@ -29,8 +29,9 @@
         <label> MOBILE NUMBER </label><input type="number" id="number">
         <span class="error-message" id="number-error"></span><br>
         <br>
-        <label>GENDER </label><input type="radio">MALE
-        <input type="radio">Female<br>
+        <label>GENDER </label><input type="radio" id="male">MALE
+        <input type="radio" id="female">Female
+        <span id="gender-error" class="error-message"></span><br>
         <br>
         <label>ADDRESS</label><input type="text" id="address">
         <span class="error-message" id="address-error"></span><br>
@@ -56,7 +57,7 @@
         <input type="checkbox">B.Com
         <input type="checkbox">B.sc<br>
         <br>
-        <input type="button" value=summit>
+        <input type="button" value=summit onclick="summit()">
         <input type="reset">
     </form>
 </body>
