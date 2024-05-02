@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Design with JavaScript</title>
+<style>
+  .card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card h2 {
+    margin-top: 0;
+  }
+</style>
+</head>
+<body>
+
+<div id="cards-container"></div>
+
+<script>
+  function createCard(title, content) {
+    const card = document.createElement('div');
+    card.classList.add('card');
+    
+    const titleElement = document.createElement('h2');
+    titleElement.textContent = title;
+    
+    const contentElement = document.createElement('p');
+    contentElement.textContent = content;
+    
+    card.appendChild(titleElement);
+    card.appendChild(contentElement);
+    
+    return card;
+  }
+  const cardData = [
+    { title: 'Card 1', content: 'This is the content of Card 1.' },
+    { title: 'Card 2', content: 'This is the content of Card 2.' },
+    { title: 'Card 3', content: 'This is the content of Card 3.' }
+  ];
+  const cardsContainer = document.getElementById('cards-container');
+  cardData.forEach(data => {
+    const card = createCard(data.title, data.content);
+    cardsContainer.appendChild(card);
+  });
+</script>
+
+</body>
+</html>
