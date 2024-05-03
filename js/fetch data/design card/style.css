@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightgrey;
+    margin:100px 100px 100px 100px;
+    font-family: 'Poppins';
+}
+
+.card{
+    height: 420px;
+    width: 330px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+.profile-box{
+    width: 330px;
+    height: 150px;
+    background-color: rgb(104, 104, 227);
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+.profile-img{
+    height: 140px;
+    width: 140px;
+    border: solid 5px rgb(104, 104, 227);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -23px;
+    left: 27%;
+}
+.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-youtube{
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.fa-facebook-f{
+    background-color: rgb(14, 14, 130);
+}
+.fa-twitter{
+    background-color: skyblue;
+}
+.fa-instagram{
+    background-color: mediumvioletred;
+}
+.fa-youtube{
+    background-color:rgb(237, 83, 83);
+}
+.Subscribe-btn,.Message-btn{
+    padding: 13px;
+    color: white;
+    background-color: rgb(104, 104, 227);
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.Subscribe-btn{
+    width: 130px;
+}
+.Message-btn{
+    width: 100px;
+}
+.card-text{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+}
+.views{
+    display: flex;
+    gap: 20px;
+}
+.card-text h5{
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-text p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.social-media-icon{
+    display: flex;
+    gap: 15px;
+}
+.button{
+    display: flex;
+    gap: 12px;
+}
+.views span{
+    font-size: 18px;
+}
+.fa-heart,.fa-comment{
+    font-size: 18px;
+}
