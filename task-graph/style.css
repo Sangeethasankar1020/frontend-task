@@ -1,0 +1,68 @@
+
+.box-1 ,.box-2,.box-3,.box-4,.box-5{
+    width: 120px;
+    border: none;
+    background-image: linear-gradient(#2f8bd7, #87ebd7);
+}
+.box-1{
+    height: 100px;
+}
+.box-2{
+    height: 200px;
+}
+.box-3{
+    height: 300px;
+}
+.box-4{
+    height: 400px;
+}
+.box-5{
+    height: 500px;
+}
+.box{
+    display: flex;
+    gap: 30px;
+    align-items: baseline;
+}
+.vertical-line{
+    height: 548px;
+    width: 2px;
+    border: none;
+    background-color: cadetblue;
+}
+.horizondal-line{
+    height: 2px;
+    width: 800px;
+    border: none;
+    background-color: cadetblue;
+}
+.vertical-text{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.salary-line{
+    display: flex;
+    gap: 10px;
+}
+.box-row{
+    display: flex;
+}
+.main-box{
+    position: relative;
+    margin: auto;
+    max-width: 1200px;
+}
+.year-row{
+    position: absolute;
+    bottom: 20px;
+    left: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.horizondal-text{
+    display: flex;
+    gap: 90px;
+    margin-left: 93px;
+}
