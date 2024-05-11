@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function haveSameDigits(num1, num2) {
+                const str1 = num1.toString();
+                const str2 = num2.toString();
+
+                const count1 = Array(10).fill(0);
+                const count2 = Array(10).fill(0);
+
+                for (let i = 0; i < str1.length; i++) {
+                    count1[parseInt(str1[i])] += 1;
+                }
+
+                for (let i = 0; i < str2.length; i++) {
+                    count2[parseInt(str2[i])] += 1;
+                }
+
+                for (let i = 0; i < 10; i++) {
+                    if (count1[i] !== count2[i]) {
+                        return false;
+                    }
+                }
+
+                return true;
+            }
+
+            function findSmallestInteger() {
+                let x = 1;
+                while (true) {
+                    if (
+                        haveSameDigits(x, 2 * x) &&
+                        haveSameDigits(x, 3 * x) &&
+                        haveSameDigits(x, 4 * x) &&
+                        haveSameDigits(x, 5 * x) &&
+                        haveSameDigits(x, 6 * x)
+                    ) {
+                        return x;
+                    }
+                    x++;
+                }
+            }
+
+            // Find the smallest integer
+            const smallestInteger = findSmallestInteger();
+            console.log(`The smallest positive integer x is: ${smallestInteger}`);
+            console.log(`${smallestInteger} * 2 = ${smallestInteger * 2}`);
+            console.log(`${smallestInteger} * 3 = ${smallestInteger * 3}`);
+            console.log(`${smallestInteger} * 4 = ${smallestInteger * 4}`);
+            console.log(`${smallestInteger} * 5 = ${smallestInteger * 5}`);
+            console.log(`${smallestInteger} * 6 = ${smallestInteger * 6}`);
+            console.log("(All contains same digits but order differs)");
+
+    </script>
+</body>
+</html>

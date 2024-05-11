@@ -1,4 +1,4 @@
-// promise
+n// promise
 let count =true
 let promiseDemo = new Promise(function (res, rej) {
     if (count) {

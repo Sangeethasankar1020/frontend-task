@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function countRemainingCharacters(name1, name2) {
+                const count = {};
+
+                for (let char of name1) {
+                    count[char] = (count[char] || 0) + 1;
+                }
+
+                for (let char of name2) {
+                    if (count[char]) {
+                        count[char]--;
+                    } else {
+                        count[char] = 1;
+                    }
+                }
+
+                let remainingCount = 0;
+                for (let char in count) {
+                    remainingCount += count[char];
+                }
+
+                return remainingCount;
+            }
+
+            function getRelationship(player1, player2) {
+                const flames = ["Friend", "Love", "Affection", "Marriage", "Enemy", "Sibling"];
+                const count = countRemainingCharacters(player1.toUpperCase(), player2.toUpperCase());
+
+                while (flames.length > 1) {
+                    const index = (count % flames.length) - 1;
+                    if (index >= 0) {
+                        flames.splice(index, 1);
+                    } else {
+                        flames.splice(flames.length - 1, 1);
+                    }
+                }
+
+                return flames[0];
+            }
+
+            // Example usage:
+            const player1 = "AJAY";
+            const player2 = "PRIYA";
+            const relationship = getRelationship(player1, player2);
+            console.log(`Output: Player 1 is ${relationship} to Player 2`);
+
+    </script>
+</body>
+</html>

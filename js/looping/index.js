@@ -4,7 +4,7 @@ for (let i = 1; i <= 15; i++) {
   console.log(i, "From 1-15");
 }
 // odd num from 6-29
-for (let j = 6; j <= 29; j++) {
+for (let j = 6; j <= 29; j++){
   if (j % 2 !== 0) {
     console.log(j, "odd");
   }
