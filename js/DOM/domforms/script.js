@@ -15,3 +15,4 @@ function myFunction() {
 // css
 
 document.getElementById("heading").style.color = "blue";
+document.getElementById("innercontent").style.color="green"
