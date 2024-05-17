@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form button {
+    margin-top: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    cursor: pointer;
+}

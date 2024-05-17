@@ -1,15 +1,17 @@
-# match case
-num = int(input("Enter a number"))
-if num%2 ==0:
-    print("number is even number")
-else:
-    print("odd number")
+#match case
 
+num=int(input("Enter a number between 1 to 5"))
 
-    #to find birthday year 
-
-birthDayYear=2001
-currentYear=2024
-
-age = currentYear - birthDayYear
-print(age)
+match num:
+    case 1:
+        print("one")
+    case 2:
+        print("two")
+    case 3:
+        print("three")
+    case 4:
+        print("four")
+    case 5:
+        print("five")
+    case _:
+        print("something wrong")
