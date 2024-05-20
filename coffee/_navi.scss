@@ -1,0 +1,46 @@
+body{
+    position: relative;
+}
+.navigation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(20, 2, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    // justify-content: space-around;
+    // align-items: center;
+    // box-sizing: border-box;
+    // padding: 10px;
+}
+.navi_time{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin-right: 70px;
+}
+.navi_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 20PX;
+   
+    // padding: 20px;
+}
+.HOME{
+    display: flex;
+    gap: 20px;
+}
+.navi-text{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.btn-secondary{
+    background-color: rgba(20, 2, 0, 0.8);
+}
