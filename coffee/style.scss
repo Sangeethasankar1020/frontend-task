@@ -2,7 +2,12 @@
 @import "./video";
 @import "./banner";
 @import "./bannerarea";
+@import "./galleryspan";
+@import "./rating";
+@import "./travel";
+@import "./footer";
 *{
     padding: 0;
-    margin: 0;
+    margin: 0; 
+    box-sizing: border-box; 
 }

@@ -1,0 +1,36 @@
+.rating_star_main{
+    height: 630px;
+    width: 100%;
+    background-color: #b68834;
+    margin-top: 150px;
+    color: white;
+    box-sizing: border-box;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.rating_head{
+    text-align: center;
+}
+.lorem_rating_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.rating_count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+
+.lorem_text_col{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    p{
+        line-height: 1.5;
+    }
+}
